@@ -1,0 +1,71 @@
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.0:1:id,5
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.0:2:student,<ns1:id xmlns:ns1="http://birzeit.edu/soa-web-service">5</ns1:id><ns1:name xmlns:ns1="http://birzeit.edu/soa-web-service">Ali</ns1:name><ns1:gender xmlns:ns1="http://birzeit.edu/soa-web-service">MALE</ns1:gender><ns1:dateOfBirth xmlns:ns1="http://birzeit.edu/soa-web-service">12-12-1990</ns1:dateOfBirth><ns1:balance xmlns:ns1="http://birzeit.edu/soa-web-service">0.0</ns1:balance><ns1:credit xmlns:ns1="http://birzeit.edu/soa-web-service">0</ns1:credit>
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.0:0:CALLER,null
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.0:0:delete_on_finish,No
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.0:0:ENDDT,2018-05-26 23:24:30.784
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.0:0:Finalized,Yes
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.0:0:READYDT,2018-05-26 23:24:30.321
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.0:0:START,1
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.0:0:STARTDT,2018-05-26 23:24:30.321
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.0:0:STATE,4
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.0:0:SuspendAfterCreation,No
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.0:0:WALL,0.463
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.0:1:id,5
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.0:2:student,<ns1:id xmlns:ns1="http://birzeit.edu/soa-web-service">5</ns1:id><ns1:name xmlns:ns1="http://birzeit.edu/soa-web-service">Ali</ns1:name><ns1:gender xmlns:ns1="http://birzeit.edu/soa-web-service">MALE</ns1:gender><ns1:dateOfBirth xmlns:ns1="http://birzeit.edu/soa-web-service">12-12-1990</ns1:dateOfBirth><ns1:balance xmlns:ns1="http://birzeit.edu/soa-web-service">0.0</ns1:balance><ns1:credit xmlns:ns1="http://birzeit.edu/soa-web-service">0</ns1:credit>
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.0:0:ENDDT,2018-05-26 23:24:30.784
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.0:0:HOST,192.168.2.108
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.0:0:NAME,SOAP_getStudent
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.0:0:PROGNAME,{ws.ws.students}SOAP_getStudent[1.0]
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.0:0:READYDT,2018-05-26 23:24:30.321
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.0:0:RESTART,null
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.0:0:START,1
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.0:0:STARTDT,2018-05-26 23:24:30.321
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.0:0:STATE,4
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.0:0:TYPE,ACTY
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.0:0:WALL,0.463
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.0:4:AM,SOAP_getStudent_INVOKE
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.0:4:destination,http://34.201.172.255:8080/ws
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.0:4:message,<soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/soa-web-service" xmlns:bns="http://birzeit.edu/soa-web-service">
+<soapEnv:Body>
+    <bns:getStudentRequest soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <bns:id xsi:type="xsd:int">5</bns:id>
+</bns:getStudentRequest>
+</soapEnv:Body></soapEnv:Envelope>
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.0:5:message,<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:getStudentResponse xmlns:ns2="http://birzeit.edu/soa-web-service"><ns2:student><ns2:id>5</ns2:id><ns2:name>Ali</ns2:name><ns2:gender>MALE</ns2:gender><ns2:dateOfBirth>12-12-1990</ns2:dateOfBirth><ns2:balance>0.0</ns2:balance><ns2:credit>0</ns2:credit></ns2:student></ns2:getStudentResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.1:1:id,5
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.1:2:student,<ns1:id xmlns:ns1="http://birzeit.edu/soa-web-service">5</ns1:id><ns1:name xmlns:ns1="http://birzeit.edu/soa-web-service">Ali</ns1:name><ns1:gender xmlns:ns1="http://birzeit.edu/soa-web-service">MALE</ns1:gender><ns1:dateOfBirth xmlns:ns1="http://birzeit.edu/soa-web-service">12-12-1990</ns1:dateOfBirth><ns1:balance xmlns:ns1="http://birzeit.edu/soa-web-service">0.0</ns1:balance><ns1:credit xmlns:ns1="http://birzeit.edu/soa-web-service">0</ns1:credit>
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.1:0:CALLER,null
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.1:0:delete_on_finish,null
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.1:0:ENDDT,2018-05-26 23:25:27.868
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.1:0:Finalized,Yes
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.1:0:READYDT,2018-05-26 23:25:27.451
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.1:0:START,1
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.1:0:STARTDT,2018-05-26 23:25:27.451
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.1:0:STATE,4
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.1:0:SuspendAfterCreation,null
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.1:0:WALL,0.417
+{ws.ws.students}Test_SOAP_getStudent[1.0].0.1:4:Response,Response to {ws.ws.students}Test_SOAP_getStudent[1.0].0.1/5
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.1:1:id,5
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.1:2:student,<ns1:id xmlns:ns1="http://birzeit.edu/soa-web-service">5</ns1:id><ns1:name xmlns:ns1="http://birzeit.edu/soa-web-service">Ali</ns1:name><ns1:gender xmlns:ns1="http://birzeit.edu/soa-web-service">MALE</ns1:gender><ns1:dateOfBirth xmlns:ns1="http://birzeit.edu/soa-web-service">12-12-1990</ns1:dateOfBirth><ns1:balance xmlns:ns1="http://birzeit.edu/soa-web-service">0.0</ns1:balance><ns1:credit xmlns:ns1="http://birzeit.edu/soa-web-service">0</ns1:credit>
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.1:0:ENDDT,2018-05-26 23:25:27.868
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.1:0:HOST,192.168.2.108
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.1:0:NAME,SOAP_getStudent
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.1:0:PROGNAME,{ws.ws.students}SOAP_getStudent[1.0]
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.1:0:READYDT,2018-05-26 23:25:27.451
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.1:0:RESTART,null
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.1:0:START,1
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.1:0:STARTDT,2018-05-26 23:25:27.452
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.1:0:STATE,4
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.1:0:TYPE,ACTY
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.1:0:WALL,0.417
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.1:4:AM,SOAP_getStudent_INVOKE
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.1:4:destination,http://34.201.172.255:8080/ws
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.1:4:message,<soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/soa-web-service" xmlns:bns="http://birzeit.edu/soa-web-service">
+<soapEnv:Body>
+    <bns:getStudentRequest soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <bns:id xsi:type="xsd:int">5</bns:id>
+</bns:getStudentRequest>
+</soapEnv:Body></soapEnv:Envelope>
+{ws.ws.students}Test_SOAP_getStudent[1.0].SOAP_getStudent.1:5:message,<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:getStudentResponse xmlns:ns2="http://birzeit.edu/soa-web-service"><ns2:student><ns2:id>5</ns2:id><ns2:name>Ali</ns2:name><ns2:gender>MALE</ns2:gender><ns2:dateOfBirth>12-12-1990</ns2:dateOfBirth><ns2:balance>0.0</ns2:balance><ns2:credit>0</ns2:credit></ns2:student></ns2:getStudentResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

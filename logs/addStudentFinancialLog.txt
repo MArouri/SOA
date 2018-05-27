@@ -1,0 +1,42 @@
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].0.0:1:amount,200
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].0.0:1:studentId,11
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].0.0:1:type,DEBIT
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].0.0:2:financial,<ns1:id xmlns:ns1="http://birzeit.edu/financial-web-service">4</ns1:id><ns1:studentId xmlns:ns1="http://birzeit.edu/financial-web-service">11</ns1:studentId><ns1:balance xmlns:ns1="http://birzeit.edu/financial-web-service">-200.0</ns1:balance>
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].0.0:0:CALLER,null
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].0.0:0:delete_on_finish,null
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].0.0:0:ENDDT,2018-05-26 22:59:16.356
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].0.0:0:Finalized,Yes
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].0.0:0:READYDT,2018-05-26 22:59:15.914
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].0.0:0:START,1
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].0.0:0:STARTDT,2018-05-26 22:59:15.918
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].0.0:0:STATE,4
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].0.0:0:SuspendAfterCreation,null
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].0.0:0:WALL,0.442
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].0.0:4:Response,Response to {ws.ws.financial}Test_addStudentFinancial_1[1.0].0.0/3
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].addStudentFinancial_1.0:1:amount,200
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].addStudentFinancial_1.0:1:studentId,11
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].addStudentFinancial_1.0:1:type,DEBIT
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].addStudentFinancial_1.0:2:financial,<ns1:id xmlns:ns1="http://birzeit.edu/financial-web-service">4</ns1:id><ns1:studentId xmlns:ns1="http://birzeit.edu/financial-web-service">11</ns1:studentId><ns1:balance xmlns:ns1="http://birzeit.edu/financial-web-service">-200.0</ns1:balance>
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].addStudentFinancial_1.0:0:ENDDT,2018-05-26 22:59:16.356
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].addStudentFinancial_1.0:0:HOST,192.168.2.108
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].addStudentFinancial_1.0:0:NAME,addStudentFinancial_1
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].addStudentFinancial_1.0:0:PROGNAME,{ws.ws.financial}addStudentFinancial_1[1.0]
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].addStudentFinancial_1.0:0:READYDT,2018-05-26 22:59:15.919
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].addStudentFinancial_1.0:0:RESTART,null
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].addStudentFinancial_1.0:0:START,1
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].addStudentFinancial_1.0:0:STARTDT,2018-05-26 22:59:15.922
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].addStudentFinancial_1.0:0:STATE,4
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].addStudentFinancial_1.0:0:TYPE,ACTY
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].addStudentFinancial_1.0:0:WALL,0.437
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].addStudentFinancial_1.0:4:AM,addStudentFinancial_1_INVOKE
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].addStudentFinancial_1.0:4:destination,http://34.201.172.255:8090/ws
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].addStudentFinancial_1.0:4:message,<soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/financial-web-service" xmlns:bns="http://birzeit.edu/financial-web-service">
+<soapEnv:Body>
+    <bns:addStudentFinancialRequest soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+   <bns:studentId xsi:type="xsd:int" >11</bns:studentId>
+   <bns:amount xsi:type="xsd:float" >200</bns:amount>
+   <bns:type xsi:type="xsd:string" >DEBIT</bns:type>
+</bns:addStudentFinancialRequest>
+</soapEnv:Body></soapEnv:Envelope>
+{ws.ws.financial}Test_addStudentFinancial_1[1.0].addStudentFinancial_1.0:5:message,<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:addStudentFinancialResponse xmlns:ns2="http://birzeit.edu/financial-web-service"><ns2:financial><ns2:id>4</ns2:id><ns2:studentId>11</ns2:studentId><ns2:balance>-200.0</ns2:balance></ns2:financial></ns2:addStudentFinancialResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

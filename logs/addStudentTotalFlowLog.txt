@@ -1,0 +1,248 @@
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.0:1:dateOfBrth,12-12-2000
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.0:1:gender,MALE
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.0:1:name,test
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.0:2:financial,<ns1:id xmlns:ns1="http://birzeit.edu/financial-web-service">17</ns1:id><ns1:studentId xmlns:ns1="http://birzeit.edu/financial-web-service">22</ns1:studentId><ns1:balance xmlns:ns1="http://birzeit.edu/financial-web-service">700.0</ns1:balance>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.0:2:Registration,null
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.0:0:CALLER,null
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.0:0:delete_on_finish,No
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.0:0:ENDDT,2018-05-27 01:53:03.087
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.0:0:Finalized,Yes
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.0:0:READYDT,2018-05-27 01:53:02.200
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.0:0:START,1
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.0:0:STARTDT,2018-05-27 01:53:02.200
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.0:0:STATE,4
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.0:0:SuspendAfterCreation,No
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.0:0:WALL,0.887
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:1:id,22
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:2:Registration,null
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:0:ENDDT,2018-05-27 01:53:03.034
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:0:HOST,192.168.2.108
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:0:NAME,createRegistration
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:0:PROGNAME,{ws.ws.registration}createRegistration[1.0]
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:0:READYDT,2018-05-27 01:53:02.648
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:0:RESTART,null
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:0:START,1
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:0:STARTDT,2018-05-27 01:53:02.655
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:0:STATE,4
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:0:TYPE,ACTY
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:0:WALL,0.386
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:4:AM,HTTPAdapter
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:4:body,{
+    "course": {
+        "name": "SOA",
+        "credit": 3
+    },
+    "student_id": 22
+    }
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:4:headin,Content-Type: application/json
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:4:method,POST
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:4:urlstring,http://34.201.172.255:8070/registration/students/
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:5:errormsg,null
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:5:headout,Transfer-Encoding:[chunked]
+null:[HTTP/1.1 200]
+Date:[Sat, 26 May 2018 22:53:04 GMT]
+Content-Type:[application/json;charset=UTF-8]
+
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:5:page,{"id":11,"course":{"id":3,"name":"SOA","credit":3},"student_id":22}
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:5:responseheaders,{Transfer-Encoding=[chunked], null=[HTTP/1.1 200], Date=[Sat, 26 May 2018 22:53:04 GMT], Content-Type=[application/json;charset=UTF-8]}
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.0:5:status,200
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.0:1:dateOfBirth,12-12-2000
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.0:1:gender,MALE
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.0:1:name,test
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.0:2:student,<ns1:id xmlns:ns1="http://birzeit.edu/soa-web-service">22</ns1:id><ns1:name xmlns:ns1="http://birzeit.edu/soa-web-service">test</ns1:name><ns1:gender xmlns:ns1="http://birzeit.edu/soa-web-service">MALE</ns1:gender><ns1:dateOfBirth xmlns:ns1="http://birzeit.edu/soa-web-service">12-12-2000</ns1:dateOfBirth><ns1:balance xmlns:ns1="http://birzeit.edu/soa-web-service">0.0</ns1:balance><ns1:credit xmlns:ns1="http://birzeit.edu/soa-web-service">0</ns1:credit>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.0:0:ENDDT,2018-05-27 01:53:02.633
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.0:0:HOST,192.168.2.108
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.0:0:NAME,SOAP_addStudent
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.0:0:PROGNAME,{ws.ws.students}SOAP_addStudent[1.0]
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.0:0:READYDT,2018-05-27 01:53:02.200
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.0:0:RESTART,null
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.0:0:START,1
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.0:0:STARTDT,2018-05-27 01:53:02.216
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.0:0:STATE,4
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.0:0:TYPE,ACTY
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.0:0:WALL,0.433
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.0:4:AM,SOAP_addStudent_INVOKE
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.0:4:destination,http://34.201.172.255:8080/ws
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.0:4:message,<soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/soa-web-service" xmlns:bns="http://birzeit.edu/soa-web-service">
+<soapEnv:Body>
+    <bns:addStudentRequest soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <bns:name xsi:type="xsd:string">test</bns:name>
+  <bns:gender xsi:type="xsd:string">MALE</bns:gender>
+  <bns:dateOfBirth xsi:type="xsd:string">12-12-2000</bns:dateOfBirth>
+</bns:addStudentRequest>
+</soapEnv:Body></soapEnv:Envelope>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.0:5:message,<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:addStudentResponse xmlns:ns2="http://birzeit.edu/soa-web-service"><ns2:student><ns2:id>22</ns2:id><ns2:name>test</ns2:name><ns2:gender>MALE</ns2:gender><ns2:dateOfBirth>12-12-2000</ns2:dateOfBirth><ns2:balance>0.0</ns2:balance><ns2:credit>0</ns2:credit></ns2:student></ns2:addStudentResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.0:1:amount,700
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.0:1:studentId,22
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.0:1:type,CREDIT
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.0:2:financial,<ns1:id xmlns:ns1="http://birzeit.edu/financial-web-service">17</ns1:id><ns1:studentId xmlns:ns1="http://birzeit.edu/financial-web-service">22</ns1:studentId><ns1:balance xmlns:ns1="http://birzeit.edu/financial-web-service">700.0</ns1:balance>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.0:0:ENDDT,2018-05-27 01:53:03.087
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.0:0:HOST,192.168.2.108
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.0:0:NAME,SOAP_addStudentFinancial
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.0:0:PROGNAME,{ws.ws.financial}SOAP_addStudentFinancial[1.0]
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.0:0:READYDT,2018-05-27 01:53:02.648
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.0:0:RESTART,null
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.0:0:START,1
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.0:0:STARTDT,2018-05-27 01:53:02.655
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.0:0:STATE,4
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.0:0:TYPE,ACTY
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.0:0:WALL,0.439
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.0:4:AM,SOAP_addStudentFinancial_INVOKE
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.0:4:destination,http://34.201.172.255:8090/ws
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.0:4:message,<soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/financial-web-service" xmlns:bns="http://birzeit.edu/financial-web-service">
+<soapEnv:Body>
+    <bns:addStudentFinancialRequest soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <bns:studentId xsi:type="xsd:int">22</bns:studentId>
+  <bns:amount xsi:type="xsd:float">700</bns:amount>
+  <bns:type xsi:type="xsd:string">CREDIT</bns:type>
+</bns:addStudentFinancialRequest>
+</soapEnv:Body></soapEnv:Envelope>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.0:5:message,<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:addStudentFinancialResponse xmlns:ns2="http://birzeit.edu/financial-web-service"><ns2:financial><ns2:id>17</ns2:id><ns2:studentId>22</ns2:studentId><ns2:balance>700.0</ns2:balance></ns2:financial></ns2:addStudentFinancialResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:1:students,<ns1:id xmlns:ns1="http://birzeit.edu/soa-web-service">22</ns1:id><ns1:name xmlns:ns1="http://birzeit.edu/soa-web-service">test</ns1:name><ns1:gender xmlns:ns1="http://birzeit.edu/soa-web-service">MALE</ns1:gender><ns1:dateOfBirth xmlns:ns1="http://birzeit.edu/soa-web-service">12-12-2000</ns1:dateOfBirth><ns1:balance xmlns:ns1="http://birzeit.edu/soa-web-service">0.0</ns1:balance><ns1:credit xmlns:ns1="http://birzeit.edu/soa-web-service">0</ns1:credit>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:2:balance,0.0
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:2:credit,0
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:2:dateOfBirth,12-12-2000
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:2:gender,MALE
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:2:id,22
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:2:name,test
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:0:ENDDT,2018-05-27 01:53:02.633
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:0:HOST,192.168.2.108
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:0:NAME,Unpack_student
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:0:PROGNAME,{ws.ws.students}Unpack_student[1.0]
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:0:READYDT,2018-05-27 01:53:02.633
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:0:RESTART,null
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:0:START,1
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:0:STARTDT,2018-05-27 01:53:02.633
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:0:STATE,4
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:0:TYPE,ACTY
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:0:WALL,0.0
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:4:AM,ECHO
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:4:Input,<ns1:id xmlns:ns1="http://birzeit.edu/soa-web-service">22</ns1:id><ns1:name xmlns:ns1="http://birzeit.edu/soa-web-service">test</ns1:name><ns1:gender xmlns:ns1="http://birzeit.edu/soa-web-service">MALE</ns1:gender><ns1:dateOfBirth xmlns:ns1="http://birzeit.edu/soa-web-service">12-12-2000</ns1:dateOfBirth><ns1:balance xmlns:ns1="http://birzeit.edu/soa-web-service">0.0</ns1:balance><ns1:credit xmlns:ns1="http://birzeit.edu/soa-web-service">0</ns1:credit>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:5:Output,<ns1:id xmlns:ns1="http://birzeit.edu/soa-web-service">22</ns1:id><ns1:name xmlns:ns1="http://birzeit.edu/soa-web-service">test</ns1:name><ns1:gender xmlns:ns1="http://birzeit.edu/soa-web-service">MALE</ns1:gender><ns1:dateOfBirth xmlns:ns1="http://birzeit.edu/soa-web-service">12-12-2000</ns1:dateOfBirth><ns1:balance xmlns:ns1="http://birzeit.edu/soa-web-service">0.0</ns1:balance><ns1:credit xmlns:ns1="http://birzeit.edu/soa-web-service">0</ns1:credit>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.0:5:realtime,0
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.1:1:dateOfBrth,12-12-2000
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.1:1:gender,MALE
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.1:1:name,test
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.1:2:financial,<ns1:id xmlns:ns1="http://birzeit.edu/financial-web-service">18</ns1:id><ns1:studentId xmlns:ns1="http://birzeit.edu/financial-web-service">23</ns1:studentId><ns1:balance xmlns:ns1="http://birzeit.edu/financial-web-service">700.0</ns1:balance>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.1:2:Registration,null
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.1:0:CALLER,null
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.1:0:delete_on_finish,No
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.1:0:ENDDT,2018-05-27 01:55:32.890
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.1:0:Finalized,Yes
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.1:0:READYDT,2018-05-27 01:55:31.870
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.1:0:START,1
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.1:0:STARTDT,2018-05-27 01:55:31.870
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.1:0:STATE,4
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.1:0:SuspendAfterCreation,No
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.1:0:WALL,1.02
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:1:id,23
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:2:Registration,null
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:0:ENDDT,2018-05-27 01:55:32.837
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:0:HOST,192.168.2.108
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:0:NAME,createRegistration
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:0:PROGNAME,{ws.ws.registration}createRegistration[1.0]
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:0:READYDT,2018-05-27 01:55:32.404
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:0:RESTART,null
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:0:START,1
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:0:STARTDT,2018-05-27 01:55:32.420
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:0:STATE,4
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:0:TYPE,ACTY
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:0:WALL,0.433
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:4:AM,HTTPAdapter
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:4:body,{
+    "course": {
+        "name": "SOA",
+        "credit": 3
+    },
+    "student_id": 23
+    }
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:4:headin,Content-Type: application/json
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:4:method,POST
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:4:urlstring,http://34.201.172.255:8070/registration/students/
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:5:errormsg,null
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:5:headout,Transfer-Encoding:[chunked]
+null:[HTTP/1.1 200]
+Date:[Sat, 26 May 2018 22:55:34 GMT]
+Content-Type:[application/json;charset=UTF-8]
+
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:5:page,{"id":12,"course":{"id":3,"name":"SOA","credit":3},"student_id":23}
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:5:responseheaders,{Transfer-Encoding=[chunked], null=[HTTP/1.1 200], Date=[Sat, 26 May 2018 22:55:34 GMT], Content-Type=[application/json;charset=UTF-8]}
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].createRegistration.1:5:status,200
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.1:1:dateOfBirth,12-12-2000
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.1:1:gender,MALE
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.1:1:name,test
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.1:2:student,<ns1:id xmlns:ns1="http://birzeit.edu/soa-web-service">23</ns1:id><ns1:name xmlns:ns1="http://birzeit.edu/soa-web-service">test</ns1:name><ns1:gender xmlns:ns1="http://birzeit.edu/soa-web-service">MALE</ns1:gender><ns1:dateOfBirth xmlns:ns1="http://birzeit.edu/soa-web-service">12-12-2000</ns1:dateOfBirth><ns1:balance xmlns:ns1="http://birzeit.edu/soa-web-service">0.0</ns1:balance><ns1:credit xmlns:ns1="http://birzeit.edu/soa-web-service">0</ns1:credit>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.1:0:ENDDT,2018-05-27 01:55:32.404
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.1:0:HOST,192.168.2.108
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.1:0:NAME,SOAP_addStudent
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.1:0:PROGNAME,{ws.ws.students}SOAP_addStudent[1.0]
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.1:0:READYDT,2018-05-27 01:55:31.870
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.1:0:RESTART,null
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.1:0:START,1
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.1:0:STARTDT,2018-05-27 01:55:31.870
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.1:0:STATE,4
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.1:0:TYPE,ACTY
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.1:0:WALL,0.534
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.1:4:AM,SOAP_addStudent_INVOKE
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.1:4:destination,http://34.201.172.255:8080/ws
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.1:4:message,<soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/soa-web-service" xmlns:bns="http://birzeit.edu/soa-web-service">
+<soapEnv:Body>
+    <bns:addStudentRequest soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <bns:name xsi:type="xsd:string">test</bns:name>
+  <bns:gender xsi:type="xsd:string">MALE</bns:gender>
+  <bns:dateOfBirth xsi:type="xsd:string">12-12-2000</bns:dateOfBirth>
+</bns:addStudentRequest>
+</soapEnv:Body></soapEnv:Envelope>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudent.1:5:message,<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:addStudentResponse xmlns:ns2="http://birzeit.edu/soa-web-service"><ns2:student><ns2:id>23</ns2:id><ns2:name>test</ns2:name><ns2:gender>MALE</ns2:gender><ns2:dateOfBirth>12-12-2000</ns2:dateOfBirth><ns2:balance>0.0</ns2:balance><ns2:credit>0</ns2:credit></ns2:student></ns2:addStudentResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.1:1:amount,700
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.1:1:studentId,23
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.1:1:type,CREDIT
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.1:2:financial,<ns1:id xmlns:ns1="http://birzeit.edu/financial-web-service">18</ns1:id><ns1:studentId xmlns:ns1="http://birzeit.edu/financial-web-service">23</ns1:studentId><ns1:balance xmlns:ns1="http://birzeit.edu/financial-web-service">700.0</ns1:balance>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.1:0:ENDDT,2018-05-27 01:55:32.890
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.1:0:HOST,192.168.2.108
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.1:0:NAME,SOAP_addStudentFinancial
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.1:0:PROGNAME,{ws.ws.financial}SOAP_addStudentFinancial[1.0]
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.1:0:READYDT,2018-05-27 01:55:32.420
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.1:0:RESTART,null
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.1:0:START,1
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.1:0:STARTDT,2018-05-27 01:55:32.420
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.1:0:STATE,4
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.1:0:TYPE,ACTY
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.1:0:WALL,0.47
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.1:4:AM,SOAP_addStudentFinancial_INVOKE
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.1:4:destination,http://34.201.172.255:8090/ws
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.1:4:message,<soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/financial-web-service" xmlns:bns="http://birzeit.edu/financial-web-service">
+<soapEnv:Body>
+    <bns:addStudentFinancialRequest soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <bns:studentId xsi:type="xsd:int">23</bns:studentId>
+  <bns:amount xsi:type="xsd:float">700</bns:amount>
+  <bns:type xsi:type="xsd:string">CREDIT</bns:type>
+</bns:addStudentFinancialRequest>
+</soapEnv:Body></soapEnv:Envelope>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].SOAP_addStudentFinancial.1:5:message,<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:addStudentFinancialResponse xmlns:ns2="http://birzeit.edu/financial-web-service"><ns2:financial><ns2:id>18</ns2:id><ns2:studentId>23</ns2:studentId><ns2:balance>700.0</ns2:balance></ns2:financial></ns2:addStudentFinancialResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:1:students,<ns1:id xmlns:ns1="http://birzeit.edu/soa-web-service">23</ns1:id><ns1:name xmlns:ns1="http://birzeit.edu/soa-web-service">test</ns1:name><ns1:gender xmlns:ns1="http://birzeit.edu/soa-web-service">MALE</ns1:gender><ns1:dateOfBirth xmlns:ns1="http://birzeit.edu/soa-web-service">12-12-2000</ns1:dateOfBirth><ns1:balance xmlns:ns1="http://birzeit.edu/soa-web-service">0.0</ns1:balance><ns1:credit xmlns:ns1="http://birzeit.edu/soa-web-service">0</ns1:credit>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:2:balance,0.0
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:2:credit,0
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:2:dateOfBirth,12-12-2000
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:2:gender,MALE
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:2:id,23
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:2:name,test
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:0:ENDDT,2018-05-27 01:55:32.404
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:0:HOST,192.168.2.108
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:0:NAME,Unpack_student
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:0:PROGNAME,{ws.ws.students}Unpack_student[1.0]
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:0:READYDT,2018-05-27 01:55:32.404
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:0:RESTART,null
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:0:START,1
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:0:STARTDT,2018-05-27 01:55:32.404
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:0:STATE,4
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:0:TYPE,ACTY
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:0:WALL,0.0
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:4:AM,ECHO
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:4:Input,<ns1:id xmlns:ns1="http://birzeit.edu/soa-web-service">23</ns1:id><ns1:name xmlns:ns1="http://birzeit.edu/soa-web-service">test</ns1:name><ns1:gender xmlns:ns1="http://birzeit.edu/soa-web-service">MALE</ns1:gender><ns1:dateOfBirth xmlns:ns1="http://birzeit.edu/soa-web-service">12-12-2000</ns1:dateOfBirth><ns1:balance xmlns:ns1="http://birzeit.edu/soa-web-service">0.0</ns1:balance><ns1:credit xmlns:ns1="http://birzeit.edu/soa-web-service">0</ns1:credit>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:5:Output,<ns1:id xmlns:ns1="http://birzeit.edu/soa-web-service">23</ns1:id><ns1:name xmlns:ns1="http://birzeit.edu/soa-web-service">test</ns1:name><ns1:gender xmlns:ns1="http://birzeit.edu/soa-web-service">MALE</ns1:gender><ns1:dateOfBirth xmlns:ns1="http://birzeit.edu/soa-web-service">12-12-2000</ns1:dateOfBirth><ns1:balance xmlns:ns1="http://birzeit.edu/soa-web-service">0.0</ns1:balance><ns1:credit xmlns:ns1="http://birzeit.edu/soa-web-service">0</ns1:credit>
+{ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].Unpack_student.1:5:realtime,0

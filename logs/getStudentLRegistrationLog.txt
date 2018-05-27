@@ -1,0 +1,115 @@
+{ws.ws.registration}Test_RegistrationGet[1.0].0.0:1:studentId,1
+{ws.ws.registration}Test_RegistrationGet[1.0].0.0:2:Registration,null
+{ws.ws.registration}Test_RegistrationGet[1.0].0.0:0:CALLER,null
+{ws.ws.registration}Test_RegistrationGet[1.0].0.0:0:delete_on_finish,No
+{ws.ws.registration}Test_RegistrationGet[1.0].0.0:0:ENDDT,2018-05-26 23:48:12.785
+{ws.ws.registration}Test_RegistrationGet[1.0].0.0:0:Finalized,Yes
+{ws.ws.registration}Test_RegistrationGet[1.0].0.0:0:READYDT,2018-05-26 23:48:12.384
+{ws.ws.registration}Test_RegistrationGet[1.0].0.0:0:START,1
+{ws.ws.registration}Test_RegistrationGet[1.0].0.0:0:STARTDT,2018-05-26 23:48:12.384
+{ws.ws.registration}Test_RegistrationGet[1.0].0.0:0:STATE,4
+{ws.ws.registration}Test_RegistrationGet[1.0].0.0:0:SuspendAfterCreation,No
+{ws.ws.registration}Test_RegistrationGet[1.0].0.0:0:WALL,0.401
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:1:id,1
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:2:Registration,null
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:0:ENDDT,2018-05-26 23:48:12.785
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:0:HOST,192.168.2.108
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:0:NAME,RegistrationGet
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:0:PROGNAME,{ws.ws.registration}RegistrationGet[1.0]
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:0:READYDT,2018-05-26 23:48:12.384
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:0:RESTART,null
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:0:START,1
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:0:STARTDT,2018-05-26 23:48:12.384
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:0:STATE,4
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:0:TYPE,ACTY
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:0:WALL,0.401
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:4:AM,GetStudentRegistration
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:4:headin,Accept: application/json
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:4:method,GET
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:4:urlstring,http://34.201.172.255:8070/registration/students/1
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:5:errormsg,null
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:5:headout,Transfer-Encoding:[chunked]
+null:[HTTP/1.1 200]
+Date:[Sat, 26 May 2018 20:48:14 GMT]
+Content-Type:[application/json;charset=UTF-8]
+
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:5:page,[]
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:5:responseheaders,{Transfer-Encoding=[chunked], null=[HTTP/1.1 200], Date=[Sat, 26 May 2018 20:48:14 GMT], Content-Type=[application/json;charset=UTF-8]}
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.0:5:status,200
+{ws.ws.registration}Test_RegistrationGet[1.0].0.1:1:studentId,1
+{ws.ws.registration}Test_RegistrationGet[1.0].0.1:2:Registration,null
+{ws.ws.registration}Test_RegistrationGet[1.0].0.1:0:CALLER,null
+{ws.ws.registration}Test_RegistrationGet[1.0].0.1:0:delete_on_finish,null
+{ws.ws.registration}Test_RegistrationGet[1.0].0.1:0:ENDDT,2018-05-26 23:48:37.917
+{ws.ws.registration}Test_RegistrationGet[1.0].0.1:0:Finalized,Yes
+{ws.ws.registration}Test_RegistrationGet[1.0].0.1:0:READYDT,2018-05-26 23:48:37.503
+{ws.ws.registration}Test_RegistrationGet[1.0].0.1:0:START,1
+{ws.ws.registration}Test_RegistrationGet[1.0].0.1:0:STARTDT,2018-05-26 23:48:37.504
+{ws.ws.registration}Test_RegistrationGet[1.0].0.1:0:STATE,4
+{ws.ws.registration}Test_RegistrationGet[1.0].0.1:0:SuspendAfterCreation,null
+{ws.ws.registration}Test_RegistrationGet[1.0].0.1:0:WALL,0.414
+{ws.ws.registration}Test_RegistrationGet[1.0].0.1:4:Response,Response to {ws.ws.registration}Test_RegistrationGet[1.0].0.1/8
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:1:id,1
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:2:Registration,null
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:0:ENDDT,2018-05-26 23:48:37.917
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:0:HOST,192.168.2.108
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:0:NAME,RegistrationGet
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:0:PROGNAME,{ws.ws.registration}RegistrationGet[1.0]
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:0:READYDT,2018-05-26 23:48:37.504
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:0:RESTART,null
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:0:START,1
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:0:STARTDT,2018-05-26 23:48:37.507
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:0:STATE,4
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:0:TYPE,ACTY
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:0:WALL,0.413
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:4:AM,GetStudentRegistration
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:4:headin,Accept: application/json
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:4:method,GET
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:4:urlstring,http://34.201.172.255:8070/registration/students/1
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:5:errormsg,null
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:5:headout,Transfer-Encoding:[chunked]
+null:[HTTP/1.1 200]
+Date:[Sat, 26 May 2018 20:48:39 GMT]
+Content-Type:[application/json;charset=UTF-8]
+
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:5:page,[]
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:5:responseheaders,{Transfer-Encoding=[chunked], null=[HTTP/1.1 200], Date=[Sat, 26 May 2018 20:48:39 GMT], Content-Type=[application/json;charset=UTF-8]}
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.1:5:status,200
+{ws.ws.registration}Test_RegistrationGet[1.0].0.2:1:studentId,2
+{ws.ws.registration}Test_RegistrationGet[1.0].0.2:2:Registration,null
+{ws.ws.registration}Test_RegistrationGet[1.0].0.2:0:CALLER,null
+{ws.ws.registration}Test_RegistrationGet[1.0].0.2:0:delete_on_finish,No
+{ws.ws.registration}Test_RegistrationGet[1.0].0.2:0:ENDDT,2018-05-26 23:49:30.493
+{ws.ws.registration}Test_RegistrationGet[1.0].0.2:0:Finalized,Yes
+{ws.ws.registration}Test_RegistrationGet[1.0].0.2:0:READYDT,2018-05-26 23:49:30.077
+{ws.ws.registration}Test_RegistrationGet[1.0].0.2:0:START,1
+{ws.ws.registration}Test_RegistrationGet[1.0].0.2:0:STARTDT,2018-05-26 23:49:30.077
+{ws.ws.registration}Test_RegistrationGet[1.0].0.2:0:STATE,4
+{ws.ws.registration}Test_RegistrationGet[1.0].0.2:0:SuspendAfterCreation,No
+{ws.ws.registration}Test_RegistrationGet[1.0].0.2:0:WALL,0.416
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:1:id,2
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:2:Registration,null
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:0:ENDDT,2018-05-26 23:49:30.493
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:0:HOST,192.168.2.108
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:0:NAME,RegistrationGet
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:0:PROGNAME,{ws.ws.registration}RegistrationGet[1.0]
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:0:READYDT,2018-05-26 23:49:30.077
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:0:RESTART,null
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:0:START,1
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:0:STARTDT,2018-05-26 23:49:30.092
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:0:STATE,4
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:0:TYPE,ACTY
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:0:WALL,0.416
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:4:AM,GetStudentRegistration
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:4:headin,Accept: application/json
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:4:method,GET
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:4:urlstring,http://34.201.172.255:8070/registration/students/2
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:5:errormsg,null
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:5:headout,Transfer-Encoding:[chunked]
+null:[HTTP/1.1 200]
+Date:[Sat, 26 May 2018 20:49:31 GMT]
+Content-Type:[application/json;charset=UTF-8]
+
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:5:page,[{"id":1,"course":{"id":1,"name":"Java","credit":3},"student_id":2}]
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:5:responseheaders,{Transfer-Encoding=[chunked], null=[HTTP/1.1 200], Date=[Sat, 26 May 2018 20:49:31 GMT], Content-Type=[application/json;charset=UTF-8]}
+{ws.ws.registration}Test_RegistrationGet[1.0].RegistrationGet.2:5:status,200

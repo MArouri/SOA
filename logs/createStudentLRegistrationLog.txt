@@ -1,0 +1,91 @@
+{ws.ws.registration}Test_createRegistration[1.0].0.0:1:id,2
+{ws.ws.registration}Test_createRegistration[1.0].0.0:2:Registration,null
+{ws.ws.registration}Test_createRegistration[1.0].0.0:0:CALLER,null
+{ws.ws.registration}Test_createRegistration[1.0].0.0:0:delete_on_finish,No
+{ws.ws.registration}Test_createRegistration[1.0].0.0:0:ENDDT,2018-05-27 02:37:00.036
+{ws.ws.registration}Test_createRegistration[1.0].0.0:0:Finalized,Yes
+{ws.ws.registration}Test_createRegistration[1.0].0.0:0:READYDT,2018-05-27 02:36:59.604
+{ws.ws.registration}Test_createRegistration[1.0].0.0:0:START,1
+{ws.ws.registration}Test_createRegistration[1.0].0.0:0:STARTDT,2018-05-27 02:36:59.604
+{ws.ws.registration}Test_createRegistration[1.0].0.0:0:STATE,4
+{ws.ws.registration}Test_createRegistration[1.0].0.0:0:SuspendAfterCreation,No
+{ws.ws.registration}Test_createRegistration[1.0].0.0:0:WALL,0.432
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:1:id,2
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:2:Registration,null
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:0:ENDDT,2018-05-27 02:37:00.036
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:0:HOST,192.168.2.108
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:0:NAME,createRegistration
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:0:PROGNAME,{ws.ws.registration}createRegistration[1.0]
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:0:READYDT,2018-05-27 02:36:59.604
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:0:RESTART,null
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:0:START,1
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:0:STARTDT,2018-05-27 02:36:59.619
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:0:STATE,4
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:0:TYPE,ACTY
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:0:WALL,0.432
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:4:AM,HTTPAdapter
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:4:body,{
+    "course": {
+        "name": "SOA",
+        "credit": 3
+    },
+    "student_id": 2
+    }
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:4:headin,Content-Type: application/json
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:4:method,POST
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:4:urlstring,http://34.201.172.255:8070/registration/students/
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:5:errormsg,null
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:5:headout,Transfer-Encoding:[chunked]
+null:[HTTP/1.1 200]
+Date:[Sat, 26 May 2018 23:37:01 GMT]
+Content-Type:[application/json;charset=UTF-8]
+
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:5:page,{"id":17,"course":{"id":3,"name":"SOA","credit":3},"student_id":2}
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:5:responseheaders,{Transfer-Encoding=[chunked], null=[HTTP/1.1 200], Date=[Sat, 26 May 2018 23:37:01 GMT], Content-Type=[application/json;charset=UTF-8]}
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.0:5:status,200
+{ws.ws.registration}Test_createRegistration[1.0].0.1:1:id,17
+{ws.ws.registration}Test_createRegistration[1.0].0.1:2:Registration,null
+{ws.ws.registration}Test_createRegistration[1.0].0.1:0:CALLER,null
+{ws.ws.registration}Test_createRegistration[1.0].0.1:0:delete_on_finish,null
+{ws.ws.registration}Test_createRegistration[1.0].0.1:0:ENDDT,2018-05-27 02:38:21.579
+{ws.ws.registration}Test_createRegistration[1.0].0.1:0:Finalized,Yes
+{ws.ws.registration}Test_createRegistration[1.0].0.1:0:READYDT,2018-05-27 02:38:21.095
+{ws.ws.registration}Test_createRegistration[1.0].0.1:0:START,1
+{ws.ws.registration}Test_createRegistration[1.0].0.1:0:STARTDT,2018-05-27 02:38:21.096
+{ws.ws.registration}Test_createRegistration[1.0].0.1:0:STATE,4
+{ws.ws.registration}Test_createRegistration[1.0].0.1:0:SuspendAfterCreation,null
+{ws.ws.registration}Test_createRegistration[1.0].0.1:0:WALL,0.484
+{ws.ws.registration}Test_createRegistration[1.0].0.1:4:Response,Response to {ws.ws.registration}Test_createRegistration[1.0].0.1/15
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:1:id,17
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:2:Registration,null
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:0:ENDDT,2018-05-27 02:38:21.579
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:0:HOST,192.168.2.108
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:0:NAME,createRegistration
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:0:PROGNAME,{ws.ws.registration}createRegistration[1.0]
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:0:READYDT,2018-05-27 02:38:21.096
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:0:RESTART,null
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:0:START,1
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:0:STARTDT,2018-05-27 02:38:21.096
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:0:STATE,4
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:0:TYPE,ACTY
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:0:WALL,0.483
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:4:AM,HTTPAdapter
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:4:body,{
+    "course": {
+        "name": "SOA",
+        "credit": 3
+    },
+    "student_id": 17
+    }
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:4:headin,Content-Type: application/json
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:4:method,POST
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:4:urlstring,http://34.201.172.255:8070/registration/students/
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:5:errormsg,null
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:5:headout,Transfer-Encoding:[chunked]
+null:[HTTP/1.1 200]
+Date:[Sat, 26 May 2018 23:38:22 GMT]
+Content-Type:[application/json;charset=UTF-8]
+
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:5:page,{"id":19,"course":{"id":3,"name":"SOA","credit":3},"student_id":17}
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:5:responseheaders,{Transfer-Encoding=[chunked], null=[HTTP/1.1 200], Date=[Sat, 26 May 2018 23:38:22 GMT], Content-Type=[application/json;charset=UTF-8]}
+{ws.ws.registration}Test_createRegistration[1.0].createRegistration.1:5:status,200

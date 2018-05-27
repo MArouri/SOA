@@ -1,0 +1,42 @@
+{ws.ws.students}Test_SOAP_addStudent[1.0].0.0:1:dateOfBirth,01-01-2000
+{ws.ws.students}Test_SOAP_addStudent[1.0].0.0:1:gender,MALE
+{ws.ws.students}Test_SOAP_addStudent[1.0].0.0:1:name,Fathi 3ata
+{ws.ws.students}Test_SOAP_addStudent[1.0].0.0:2:student,<ns1:id xmlns:ns1="http://birzeit.edu/soa-web-service">6</ns1:id><ns1:name xmlns:ns1="http://birzeit.edu/soa-web-service">Fathi 3ata</ns1:name><ns1:gender xmlns:ns1="http://birzeit.edu/soa-web-service">MALE</ns1:gender><ns1:dateOfBirth xmlns:ns1="http://birzeit.edu/soa-web-service">01-01-2000</ns1:dateOfBirth><ns1:balance xmlns:ns1="http://birzeit.edu/soa-web-service">0.0</ns1:balance><ns1:credit xmlns:ns1="http://birzeit.edu/soa-web-service">0</ns1:credit>
+{ws.ws.students}Test_SOAP_addStudent[1.0].0.0:0:CALLER,null
+{ws.ws.students}Test_SOAP_addStudent[1.0].0.0:0:delete_on_finish,null
+{ws.ws.students}Test_SOAP_addStudent[1.0].0.0:0:ENDDT,2018-05-26 23:26:48.170
+{ws.ws.students}Test_SOAP_addStudent[1.0].0.0:0:Finalized,Yes
+{ws.ws.students}Test_SOAP_addStudent[1.0].0.0:0:READYDT,2018-05-26 23:26:47.600
+{ws.ws.students}Test_SOAP_addStudent[1.0].0.0:0:START,1
+{ws.ws.students}Test_SOAP_addStudent[1.0].0.0:0:STARTDT,2018-05-26 23:26:47.601
+{ws.ws.students}Test_SOAP_addStudent[1.0].0.0:0:STATE,4
+{ws.ws.students}Test_SOAP_addStudent[1.0].0.0:0:SuspendAfterCreation,null
+{ws.ws.students}Test_SOAP_addStudent[1.0].0.0:0:WALL,0.57
+{ws.ws.students}Test_SOAP_addStudent[1.0].0.0:4:Response,Response to {ws.ws.students}Test_SOAP_addStudent[1.0].0.0/6
+{ws.ws.students}Test_SOAP_addStudent[1.0].SOAP_addStudent.0:1:dateOfBirth,01-01-2000
+{ws.ws.students}Test_SOAP_addStudent[1.0].SOAP_addStudent.0:1:gender,MALE
+{ws.ws.students}Test_SOAP_addStudent[1.0].SOAP_addStudent.0:1:name,Fathi 3ata
+{ws.ws.students}Test_SOAP_addStudent[1.0].SOAP_addStudent.0:2:student,<ns1:id xmlns:ns1="http://birzeit.edu/soa-web-service">6</ns1:id><ns1:name xmlns:ns1="http://birzeit.edu/soa-web-service">Fathi 3ata</ns1:name><ns1:gender xmlns:ns1="http://birzeit.edu/soa-web-service">MALE</ns1:gender><ns1:dateOfBirth xmlns:ns1="http://birzeit.edu/soa-web-service">01-01-2000</ns1:dateOfBirth><ns1:balance xmlns:ns1="http://birzeit.edu/soa-web-service">0.0</ns1:balance><ns1:credit xmlns:ns1="http://birzeit.edu/soa-web-service">0</ns1:credit>
+{ws.ws.students}Test_SOAP_addStudent[1.0].SOAP_addStudent.0:0:ENDDT,2018-05-26 23:26:48.169
+{ws.ws.students}Test_SOAP_addStudent[1.0].SOAP_addStudent.0:0:HOST,192.168.2.108
+{ws.ws.students}Test_SOAP_addStudent[1.0].SOAP_addStudent.0:0:NAME,SOAP_addStudent
+{ws.ws.students}Test_SOAP_addStudent[1.0].SOAP_addStudent.0:0:PROGNAME,{ws.ws.students}SOAP_addStudent[1.0]
+{ws.ws.students}Test_SOAP_addStudent[1.0].SOAP_addStudent.0:0:READYDT,2018-05-26 23:26:47.601
+{ws.ws.students}Test_SOAP_addStudent[1.0].SOAP_addStudent.0:0:RESTART,null
+{ws.ws.students}Test_SOAP_addStudent[1.0].SOAP_addStudent.0:0:START,1
+{ws.ws.students}Test_SOAP_addStudent[1.0].SOAP_addStudent.0:0:STARTDT,2018-05-26 23:26:47.605
+{ws.ws.students}Test_SOAP_addStudent[1.0].SOAP_addStudent.0:0:STATE,4
+{ws.ws.students}Test_SOAP_addStudent[1.0].SOAP_addStudent.0:0:TYPE,ACTY
+{ws.ws.students}Test_SOAP_addStudent[1.0].SOAP_addStudent.0:0:WALL,0.568
+{ws.ws.students}Test_SOAP_addStudent[1.0].SOAP_addStudent.0:4:AM,SOAP_addStudent_INVOKE
+{ws.ws.students}Test_SOAP_addStudent[1.0].SOAP_addStudent.0:4:destination,http://34.201.172.255:8080/ws
+{ws.ws.students}Test_SOAP_addStudent[1.0].SOAP_addStudent.0:4:message,<soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/soa-web-service" xmlns:bns="http://birzeit.edu/soa-web-service">
+<soapEnv:Body>
+    <bns:addStudentRequest soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <bns:name xsi:type="xsd:string">Fathi 3ata</bns:name>
+  <bns:gender xsi:type="xsd:string">MALE</bns:gender>
+  <bns:dateOfBirth xsi:type="xsd:string">01-01-2000</bns:dateOfBirth>
+</bns:addStudentRequest>
+</soapEnv:Body></soapEnv:Envelope>
+{ws.ws.students}Test_SOAP_addStudent[1.0].SOAP_addStudent.0:5:message,<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:addStudentResponse xmlns:ns2="http://birzeit.edu/soa-web-service"><ns2:student><ns2:id>6</ns2:id><ns2:name>Fathi 3ata</ns2:name><ns2:gender>MALE</ns2:gender><ns2:dateOfBirth>01-01-2000</ns2:dateOfBirth><ns2:balance>0.0</ns2:balance><ns2:credit>0</ns2:credit></ns2:student></ns2:addStudentResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

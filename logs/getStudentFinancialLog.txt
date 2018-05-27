@@ -1,0 +1,178 @@
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.0:1:id,10
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.0:2:financial,<ns1:id xmlns:ns1="http://birzeit.edu/financial-web-service">3</ns1:id><ns1:studentId xmlns:ns1="http://birzeit.edu/financial-web-service">10</ns1:studentId><ns1:balance xmlns:ns1="http://birzeit.edu/financial-web-service">200.0</ns1:balance>
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.0:0:CALLER,null
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.0:0:delete_on_finish,No
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.0:0:ENDDT,2018-05-26 22:53:20.639
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.0:0:Finalized,Yes
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.0:0:READYDT,2018-05-26 22:53:20.161
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.0:0:START,1
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.0:0:STARTDT,2018-05-26 22:53:20.161
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.0:0:STATE,4
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.0:0:SuspendAfterCreation,No
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.0:0:WALL,0.478
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.0:1:id,10
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.0:2:financial,<ns1:id xmlns:ns1="http://birzeit.edu/financial-web-service">3</ns1:id><ns1:studentId xmlns:ns1="http://birzeit.edu/financial-web-service">10</ns1:studentId><ns1:balance xmlns:ns1="http://birzeit.edu/financial-web-service">200.0</ns1:balance>
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.0:0:ENDDT,2018-05-26 22:53:20.639
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.0:0:HOST,192.168.2.108
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.0:0:NAME,getStudentFinancial_1
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.0:0:PROGNAME,{ws.ws.financial}getStudentFinancial_1[1.0]
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.0:0:READYDT,2018-05-26 22:53:20.161
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.0:0:RESTART,null
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.0:0:START,1
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.0:0:STARTDT,2018-05-26 22:53:20.161
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.0:0:STATE,4
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.0:0:TYPE,ACTY
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.0:0:WALL,0.478
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.0:4:AM,getStudentFinancial_1_INVOKE
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.0:4:destination,http://34.201.172.255:8090/ws
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.0:4:message,<soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/financial-web-service" xmlns:bns="http://birzeit.edu/financial-web-service">
+<soapEnv:Body>
+    <bns:getStudentFinancialRequest soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+   <bns:id xsi:type="xsd:int" >10</bns:id>
+</bns:getStudentFinancialRequest>
+</soapEnv:Body></soapEnv:Envelope>
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.0:5:message,<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:getStudentFinancialResponse xmlns:ns2="http://birzeit.edu/financial-web-service"><ns2:financial><ns2:id>3</ns2:id><ns2:studentId>10</ns2:studentId><ns2:balance>200.0</ns2:balance></ns2:financial></ns2:getStudentFinancialResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.1:1:id,10
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.1:2:financial,<ns1:id xmlns:ns1="http://birzeit.edu/financial-web-service">3</ns1:id><ns1:studentId xmlns:ns1="http://birzeit.edu/financial-web-service">10</ns1:studentId><ns1:balance xmlns:ns1="http://birzeit.edu/financial-web-service">200.0</ns1:balance>
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.1:0:CALLER,null
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.1:0:delete_on_finish,null
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.1:0:ENDDT,2018-05-26 22:55:11.593
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.1:0:Finalized,Yes
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.1:0:READYDT,2018-05-26 22:55:11.175
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.1:0:START,1
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.1:0:STARTDT,2018-05-26 22:55:11.175
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.1:0:STATE,4
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.1:0:SuspendAfterCreation,null
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.1:0:WALL,0.418
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.1:1:id,10
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.1:2:financial,<ns1:id xmlns:ns1="http://birzeit.edu/financial-web-service">3</ns1:id><ns1:studentId xmlns:ns1="http://birzeit.edu/financial-web-service">10</ns1:studentId><ns1:balance xmlns:ns1="http://birzeit.edu/financial-web-service">200.0</ns1:balance>
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.1:0:ENDDT,2018-05-26 22:55:11.593
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.1:0:HOST,192.168.2.108
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.1:0:NAME,getStudentFinancial_1
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.1:0:PROGNAME,{ws.ws.financial}getStudentFinancial_1[1.0]
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.1:0:READYDT,2018-05-26 22:55:11.175
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.1:0:RESTART,null
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.1:0:START,1
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.1:0:STARTDT,2018-05-26 22:55:11.177
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.1:0:STATE,4
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.1:0:TYPE,ACTY
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.1:0:WALL,0.418
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.1:4:AM,getStudentFinancial_1_INVOKE
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.1:4:destination,http://34.201.172.255:8090/ws
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.1:4:message,<soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/financial-web-service" xmlns:bns="http://birzeit.edu/financial-web-service">
+<soapEnv:Body>
+    <bns:getStudentFinancialRequest soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+   <bns:id xsi:type="xsd:int" >10</bns:id>
+</bns:getStudentFinancialRequest>
+</soapEnv:Body></soapEnv:Envelope>
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.1:5:message,<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:getStudentFinancialResponse xmlns:ns2="http://birzeit.edu/financial-web-service"><ns2:financial><ns2:id>3</ns2:id><ns2:studentId>10</ns2:studentId><ns2:balance>200.0</ns2:balance></ns2:financial></ns2:getStudentFinancialResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.2:1:id,10
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.2:2:financial,<ns1:id xmlns:ns1="http://birzeit.edu/financial-web-service">3</ns1:id><ns1:studentId xmlns:ns1="http://birzeit.edu/financial-web-service">10</ns1:studentId><ns1:balance xmlns:ns1="http://birzeit.edu/financial-web-service">200.0</ns1:balance>
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.2:0:CALLER,null
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.2:0:delete_on_finish,null
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.2:0:ENDDT,2018-05-26 22:55:32.767
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.2:0:Finalized,Yes
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.2:0:READYDT,2018-05-26 22:55:32.344
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.2:0:START,1
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.2:0:STARTDT,2018-05-26 22:55:32.344
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.2:0:STATE,4
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.2:0:SuspendAfterCreation,null
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.2:0:WALL,0.423
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.2:4:Response,Response to {ws.ws.financial}Test_getStudentFinancial_1[1.0].0.2/1
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.2:1:id,10
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.2:2:financial,<ns1:id xmlns:ns1="http://birzeit.edu/financial-web-service">3</ns1:id><ns1:studentId xmlns:ns1="http://birzeit.edu/financial-web-service">10</ns1:studentId><ns1:balance xmlns:ns1="http://birzeit.edu/financial-web-service">200.0</ns1:balance>
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.2:0:ENDDT,2018-05-26 22:55:32.767
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.2:0:HOST,192.168.2.108
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.2:0:NAME,getStudentFinancial_1
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.2:0:PROGNAME,{ws.ws.financial}getStudentFinancial_1[1.0]
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.2:0:READYDT,2018-05-26 22:55:32.345
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.2:0:RESTART,null
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.2:0:START,1
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.2:0:STARTDT,2018-05-26 22:55:32.345
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.2:0:STATE,4
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.2:0:TYPE,ACTY
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.2:0:WALL,0.422
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.2:4:AM,getStudentFinancial_1_INVOKE
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.2:4:destination,http://34.201.172.255:8090/ws
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.2:4:message,<soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/financial-web-service" xmlns:bns="http://birzeit.edu/financial-web-service">
+<soapEnv:Body>
+    <bns:getStudentFinancialRequest soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+   <bns:id xsi:type="xsd:int" >10</bns:id>
+</bns:getStudentFinancialRequest>
+</soapEnv:Body></soapEnv:Envelope>
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.2:5:message,<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:getStudentFinancialResponse xmlns:ns2="http://birzeit.edu/financial-web-service"><ns2:financial><ns2:id>3</ns2:id><ns2:studentId>10</ns2:studentId><ns2:balance>200.0</ns2:balance></ns2:financial></ns2:getStudentFinancialResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.3:1:id,10
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.3:2:financial,<ns1:id xmlns:ns1="http://birzeit.edu/financial-web-service">3</ns1:id><ns1:studentId xmlns:ns1="http://birzeit.edu/financial-web-service">10</ns1:studentId><ns1:balance xmlns:ns1="http://birzeit.edu/financial-web-service">200.0</ns1:balance>
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.3:0:CALLER,null
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.3:0:delete_on_finish,null
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.3:0:ENDDT,2018-05-26 22:56:04.914
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.3:0:Finalized,Yes
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.3:0:READYDT,2018-05-26 22:56:04.499
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.3:0:START,1
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.3:0:STARTDT,2018-05-26 22:56:04.499
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.3:0:STATE,4
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.3:0:SuspendAfterCreation,null
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.3:0:WALL,0.415
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.3:4:Response,Response to {ws.ws.financial}Test_getStudentFinancial_1[1.0].0.3/2
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.3:1:id,10
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.3:2:financial,<ns1:id xmlns:ns1="http://birzeit.edu/financial-web-service">3</ns1:id><ns1:studentId xmlns:ns1="http://birzeit.edu/financial-web-service">10</ns1:studentId><ns1:balance xmlns:ns1="http://birzeit.edu/financial-web-service">200.0</ns1:balance>
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.3:0:ENDDT,2018-05-26 22:56:04.914
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.3:0:HOST,192.168.2.108
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.3:0:NAME,getStudentFinancial_1
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.3:0:PROGNAME,{ws.ws.financial}getStudentFinancial_1[1.0]
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.3:0:READYDT,2018-05-26 22:56:04.500
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.3:0:RESTART,null
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.3:0:START,1
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.3:0:STARTDT,2018-05-26 22:56:04.500
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.3:0:STATE,4
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.3:0:TYPE,ACTY
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.3:0:WALL,0.414
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.3:4:AM,getStudentFinancial_1_INVOKE
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.3:4:destination,http://34.201.172.255:8090/ws
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.3:4:message,<soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/financial-web-service" xmlns:bns="http://birzeit.edu/financial-web-service">
+<soapEnv:Body>
+    <bns:getStudentFinancialRequest soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+   <bns:id xsi:type="xsd:int" >10</bns:id>
+</bns:getStudentFinancialRequest>
+</soapEnv:Body></soapEnv:Envelope>
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.3:5:message,<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:getStudentFinancialResponse xmlns:ns2="http://birzeit.edu/financial-web-service"><ns2:financial><ns2:id>3</ns2:id><ns2:studentId>10</ns2:studentId><ns2:balance>200.0</ns2:balance></ns2:financial></ns2:getStudentFinancialResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.4:1:id,10
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.4:2:financial,<ns1:id xmlns:ns1="http://birzeit.edu/financial-web-service">3</ns1:id><ns1:studentId xmlns:ns1="http://birzeit.edu/financial-web-service">10</ns1:studentId><ns1:balance xmlns:ns1="http://birzeit.edu/financial-web-service">200.0</ns1:balance>
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.4:0:CALLER,null
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.4:0:delete_on_finish,null
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.4:0:ENDDT,2018-05-26 23:02:22.388
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.4:0:Finalized,Yes
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.4:0:READYDT,2018-05-26 23:02:21.972
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.4:0:START,1
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.4:0:STARTDT,2018-05-26 23:02:21.972
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.4:0:STATE,4
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.4:0:SuspendAfterCreation,null
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.4:0:WALL,0.416
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].0.4:4:Response,Response to {ws.ws.financial}Test_getStudentFinancial_1[1.0].0.4/4
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.4:1:id,10
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.4:2:financial,<ns1:id xmlns:ns1="http://birzeit.edu/financial-web-service">3</ns1:id><ns1:studentId xmlns:ns1="http://birzeit.edu/financial-web-service">10</ns1:studentId><ns1:balance xmlns:ns1="http://birzeit.edu/financial-web-service">200.0</ns1:balance>
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.4:0:ENDDT,2018-05-26 23:02:22.387
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.4:0:HOST,192.168.2.108
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.4:0:NAME,getStudentFinancial_1
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.4:0:PROGNAME,{ws.ws.financial}getStudentFinancial_1[1.0]
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.4:0:READYDT,2018-05-26 23:02:21.973
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.4:0:RESTART,null
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.4:0:START,1
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.4:0:STARTDT,2018-05-26 23:02:21.974
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.4:0:STATE,4
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.4:0:TYPE,ACTY
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.4:0:WALL,0.414
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.4:4:AM,getStudentFinancial_1_INVOKE
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.4:4:destination,http://34.201.172.255:8090/ws
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.4:4:message,<soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/financial-web-service" xmlns:bns="http://birzeit.edu/financial-web-service">
+<soapEnv:Body>
+    <bns:getStudentFinancialRequest soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+   <bns:id xsi:type="xsd:int" >10</bns:id>
+</bns:getStudentFinancialRequest>
+</soapEnv:Body></soapEnv:Envelope>
+{ws.ws.financial}Test_getStudentFinancial_1[1.0].getStudentFinancial_1.4:5:message,<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:getStudentFinancialResponse xmlns:ns2="http://birzeit.edu/financial-web-service"><ns2:financial><ns2:id>3</ns2:id><ns2:studentId>10</ns2:studentId><ns2:balance>200.0</ns2:balance></ns2:financial></ns2:getStudentFinancialResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
