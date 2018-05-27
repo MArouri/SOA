@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OCR VER="2.0" MAXID="123">
+  <PROCS>
+    <PROC OID="Process76" NAME="Test_SOAP_getStudent" DESC="Automatically generated test process for SOAP_getStudent" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" PUBLISHED="true" SUBPROC="false" FLOWCONTROL="false">
+      <INBOX>
+        <PARAM OID="InboxParameter81" NAME="id" DESC="" TYPE="xsd:int" />
+      </INBOX>
+      <OUTBOX>
+        <PARAM OID="OutboxParameter82" NAME="student" DESC="" TYPE="xsdns0:student" />
+      </OUTBOX>
+      <TASKS>
+        <ACTIVITY OID="Activity83" NAME="SOAP_getStudent" DESC="" ACT="" COND="TRUE" PRIORITY="0" DEP="4" SYNCH="0" FAILH="0" PROGRAMID="Program37" />
+      </TASKS>
+      <DATAFLOW>
+        <BIND OID="Binding89" SRCTYP="3" DESTTYP="0" SRCPID="InboxParameter81" DESTPID="InboxParameter39" DESTTID="Activity83" ACTION="0" />
+        <BIND OID="Binding92" SRCTYP="0" DESTTYP="3" SRCPID="OutboxParameter43" DESTPID="OutboxParameter82" SRCTID="Activity83" ACTION="0" />
+      </DATAFLOW>
+      <VIEWS>
+        <VIEW OID="View77" NAME="ControlFlow" DESC="" VTYPE="0">
+          <ARROWS />
+          <BOXES>
+            <RBOX OID="RefBox85" X="0.0" Y="50.0" DX="0.0" DY="0.0" REF="Activity83" REFTYPE="0">
+              <BOXES />
+            </RBOX>
+          </BOXES>
+          <GROUPS />
+        </VIEW>
+        <VIEW OID="View78" NAME="DataFlow" DESC="" VTYPE="1">
+          <ARROWS>
+            <ARROW OID="Arrow90" SOURCE="RefBox88" DESTINATION="RefBox86" REF="Binding89" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow93" SOURCE="RefBox87" DESTINATION="RefBox91" REF="Binding92" REFTYPE="1" ROUTE="2" />
+          </ARROWS>
+          <BOXES>
+            <RBOX OID="RefBox79" X="235.0" Y="184.0" DX="0.0" DY="0.0" REF="Process76" REFTYPE="5">
+              <BOXES>
+                <RBOX OID="RefBox88" X="285.0" Y="238.0" DX="0.0" DY="0.0" REF="InboxParameter81" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+            <RBOX OID="RefBox80" X="384.0" Y="551.0" DX="0.0" DY="0.0" REF="Process76" REFTYPE="6">
+              <BOXES>
+                <RBOX OID="RefBox91" X="365.0" Y="486.0" DX="0.0" DY="0.0" REF="OutboxParameter82" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+            <RBOX OID="RefBox84" X="350.0" Y="350.0" DX="0.0" DY="0.0" REF="Activity83" REFTYPE="0">
+              <BOXES>
+                <RBOX OID="RefBox86" X="325.0" Y="300.0" DX="0.0" DY="0.0" REF="InboxParameter39" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox87" X="325.0" Y="410.0" DX="0.0" DY="0.0" REF="OutboxParameter43" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+          </BOXES>
+          <GROUPS />
+        </VIEW>
+      </VIEWS>
+    </PROC>
+    <PROC OID="Process96" NAME="Test_SOAP_addStudent" DESC="Automatically generated test process for SOAP_addStudent" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" PUBLISHED="true" SUBPROC="false" FLOWCONTROL="false">
+      <INBOX>
+        <PARAM OID="InboxParameter101" NAME="name" DESC="" TYPE="xsd:string" />
+        <PARAM OID="InboxParameter102" NAME="gender" DESC="" TYPE="xsd:string" />
+        <PARAM OID="InboxParameter103" NAME="dateOfBirth" DESC="" TYPE="xsd:string" />
+      </INBOX>
+      <OUTBOX>
+        <PARAM OID="OutboxParameter104" NAME="student" DESC="" TYPE="xsdns0:student" />
+      </OUTBOX>
+      <TASKS>
+        <ACTIVITY OID="Activity105" NAME="SOAP_addStudent" DESC="" ACT="" COND="TRUE" PRIORITY="0" DEP="4" SYNCH="0" FAILH="0" PROGRAMID="Program24" />
+      </TASKS>
+      <DATAFLOW>
+        <BIND OID="Binding113" SRCTYP="3" DESTTYP="0" SRCPID="InboxParameter101" DESTPID="InboxParameter26" DESTTID="Activity105" ACTION="0" />
+        <BIND OID="Binding116" SRCTYP="3" DESTTYP="0" SRCPID="InboxParameter102" DESTPID="InboxParameter27" DESTTID="Activity105" ACTION="0" />
+        <BIND OID="Binding119" SRCTYP="3" DESTTYP="0" SRCPID="InboxParameter103" DESTPID="InboxParameter28" DESTTID="Activity105" ACTION="0" />
+        <BIND OID="Binding122" SRCTYP="0" DESTTYP="3" SRCPID="OutboxParameter32" DESTPID="OutboxParameter104" SRCTID="Activity105" ACTION="0" />
+      </DATAFLOW>
+      <VIEWS>
+        <VIEW OID="View97" NAME="ControlFlow" DESC="" VTYPE="0">
+          <ARROWS />
+          <BOXES>
+            <RBOX OID="RefBox107" X="0.0" Y="50.0" DX="0.0" DY="0.0" REF="Activity105" REFTYPE="0">
+              <BOXES />
+            </RBOX>
+          </BOXES>
+          <GROUPS />
+        </VIEW>
+        <VIEW OID="View98" NAME="DataFlow" DESC="" VTYPE="1">
+          <ARROWS>
+            <ARROW OID="Arrow114" SOURCE="RefBox112" DESTINATION="RefBox108" REF="Binding113" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow117" SOURCE="RefBox115" DESTINATION="RefBox109" REF="Binding116" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow120" SOURCE="RefBox118" DESTINATION="RefBox110" REF="Binding119" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow123" SOURCE="RefBox111" DESTINATION="RefBox121" REF="Binding122" REFTYPE="1" ROUTE="2" />
+          </ARROWS>
+          <BOXES>
+            <RBOX OID="RefBox99" X="250.0" Y="0.0" DX="0.0" DY="0.0" REF="Process96" REFTYPE="5">
+              <BOXES>
+                <RBOX OID="RefBox112" X="250.0" Y="50.0" DX="0.0" DY="0.0" REF="InboxParameter101" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox115" X="300.0" Y="50.0" DX="0.0" DY="0.0" REF="InboxParameter102" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox118" X="350.0" Y="50.0" DX="0.0" DY="0.0" REF="InboxParameter103" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+            <RBOX OID="RefBox100" X="319.0" Y="514.0" DX="0.0" DY="0.0" REF="Process96" REFTYPE="6">
+              <BOXES>
+                <RBOX OID="RefBox121" X="339.0" Y="453.0" DX="0.0" DY="0.0" REF="OutboxParameter104" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+            <RBOX OID="RefBox106" X="350.0" Y="350.0" DX="0.0" DY="0.0" REF="Activity105" REFTYPE="0">
+              <BOXES>
+                <RBOX OID="RefBox108" X="275.0" Y="300.0" DX="0.0" DY="0.0" REF="InboxParameter26" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox109" X="325.0" Y="300.0" DX="0.0" DY="0.0" REF="InboxParameter27" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox110" X="375.0" Y="300.0" DX="0.0" DY="0.0" REF="InboxParameter28" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox111" X="325.0" Y="410.0" DX="0.0" DY="0.0" REF="OutboxParameter32" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+          </BOXES>
+          <GROUPS />
+        </VIEW>
+      </VIEWS>
+    </PROC>
+  </PROCS>
+  <PROGRAMS>
+    <PROGRAM OID="Program7" NAME="Unpack_student" DESC="" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" SIZE="0" RESTART="0">
+      <INBOX>
+        <PARAM OID="InboxParameter8" NAME="students" DESC="" TYPE="String" />
+      </INBOX>
+      <OUTBOX>
+        <PARAM OID="OutboxParameter9" NAME="id" DESC="" TYPE="xsd:int" />
+        <PARAM OID="OutboxParameter10" NAME="name" DESC="" TYPE="xsd:string" />
+        <PARAM OID="OutboxParameter11" NAME="gender" DESC="" TYPE="xsd:string" />
+        <PARAM OID="OutboxParameter12" NAME="dateOfBirth" DESC="" TYPE="xsd:string" />
+        <PARAM OID="OutboxParameter13" NAME="balance" DESC="" TYPE="xsd:float" />
+        <PARAM OID="OutboxParameter14" NAME="credit" DESC="" TYPE="xsd:int" />
+      </OUTBOX>
+      <ACCESS>
+        <METHOD OID="AccessMethod15" NAME="ECHO" DESC="" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" COMP="system.CT_ECHO">
+          <INBOX>
+            <PARAM OID="InboxParameter16" NAME="Input" DESC="" TYPE="XML">%students%</PARAM>
+          </INBOX>
+          <OUTBOX>
+            <PARAM OID="OutboxParameter17" NAME="Output" DESC="" TYPE="Text" />
+            <PARAM OID="OutboxParameter18" NAME="status" DESC="" TYPE="String" />
+            <PARAM OID="OutboxParameter19" NAME="errormsg" DESC="" TYPE="String" />
+          </OUTBOX>
+        </METHOD>
+      </ACCESS>
+    </PROGRAM>
+    <PROGRAM OID="Program1" NAME="SOAP_getStudents" DESC="" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" SIZE="0" RESTART="0">
+      <INBOX>
+        <PARAM OID="InboxParameter94" NAME="getStudentsRequest" DESC="" TYPE="String" />
+      </INBOX>
+      <OUTBOX>
+        <PARAM OID="OutboxParameter6" NAME="students" DESC="" TYPE="xsdns0:student" />
+      </OUTBOX>
+      <ACCESS>
+        <METHOD OID="AccessMethod2" NAME="SOAP_getStudents_INVOKE" DESC="" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" COMP="system.router.CT_INVOKE">
+          <INBOX>
+            <PARAM OID="InboxParameter3" NAME="message" DESC="" TYPE="XML">&lt;soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/soa-web-service" xmlns:bns="http://birzeit.edu/soa-web-service"&gt;
+&lt;soapEnv:Body&gt;
+    &lt;bns:getStudentsRequest soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
+%getStudentsRequest%&lt;/bns:getStudentsRequest&gt;
+&lt;/soapEnv:Body&gt;&lt;/soapEnv:Envelope&gt;</PARAM>
+            <PARAM OID="InboxParameter4" NAME="destination" DESC="" TYPE="URI">http://34.201.172.255:8080/ws</PARAM>
+            <PARAM OID="InboxParameter5" NAME="timeout" DESC="" TYPE="Integer Advanced" />
+            <PARAM OID="InboxParameter23" NAME="SOAPaction" TYPE="String" />
+          </INBOX>
+          <OUTBOX>
+            <PARAM OID="OutboxParameter20" NAME="error" DESC="" TYPE="String" />
+            <PARAM OID="OutboxParameter21" NAME="message" DESC="" TYPE="Text" />
+          </OUTBOX>
+        </METHOD>
+      </ACCESS>
+    </PROGRAM>
+    <PROGRAM OID="Program24" NAME="SOAP_addStudent" DESC="" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" SIZE="0" RESTART="0">
+      <INBOX>
+        <PARAM OID="InboxParameter26" NAME="name" DESC="" TYPE="xsd:string" />
+        <PARAM OID="InboxParameter27" NAME="gender" DESC="" TYPE="xsd:string" />
+        <PARAM OID="InboxParameter28" NAME="dateOfBirth" DESC="" TYPE="xsd:string" />
+      </INBOX>
+      <OUTBOX>
+        <PARAM OID="OutboxParameter32" NAME="student" DESC="" TYPE="xsdns0:student" />
+      </OUTBOX>
+      <ACCESS>
+        <METHOD OID="AccessMethod25" NAME="SOAP_addStudent_INVOKE" DESC="" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" COMP="system.router.CT_INVOKE">
+          <INBOX>
+            <PARAM OID="InboxParameter29" NAME="message" DESC="" TYPE="XML">&lt;soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/soa-web-service" xmlns:bns="http://birzeit.edu/soa-web-service"&gt;
+&lt;soapEnv:Body&gt;
+    &lt;bns:addStudentRequest soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
+  &lt;bns:name xsi:type="xsd:string"&gt;%name%&lt;/bns:name&gt;
+  &lt;bns:gender xsi:type="xsd:string"&gt;%gender%&lt;/bns:gender&gt;
+  &lt;bns:dateOfBirth xsi:type="xsd:string"&gt;%dateOfBirth%&lt;/bns:dateOfBirth&gt;
+&lt;/bns:addStudentRequest&gt;
+&lt;/soapEnv:Body&gt;&lt;/soapEnv:Envelope&gt;</PARAM>
+            <PARAM OID="InboxParameter30" NAME="destination" DESC="" TYPE="URI">http://34.201.172.255:8080/ws</PARAM>
+            <PARAM OID="InboxParameter31" NAME="timeout" DESC="" TYPE="Integer Advanced" />
+            <PARAM OID="InboxParameter36" NAME="SOAPaction" TYPE="String" />
+          </INBOX>
+          <OUTBOX>
+            <PARAM OID="OutboxParameter33" NAME="error" DESC="" TYPE="String" />
+            <PARAM OID="OutboxParameter34" NAME="message" DESC="" TYPE="Text" />
+          </OUTBOX>
+        </METHOD>
+      </ACCESS>
+    </PROGRAM>
+    <PROGRAM OID="Program37" NAME="SOAP_getStudent" DESC="" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" SIZE="0" RESTART="0">
+      <INBOX>
+        <PARAM OID="InboxParameter39" NAME="id" DESC="" TYPE="xsd:int" />
+      </INBOX>
+      <OUTBOX>
+        <PARAM OID="OutboxParameter43" NAME="student" DESC="" TYPE="xsdns0:student" />
+      </OUTBOX>
+      <ACCESS>
+        <METHOD OID="AccessMethod38" NAME="SOAP_getStudent_INVOKE" DESC="" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" COMP="system.router.CT_INVOKE">
+          <INBOX>
+            <PARAM OID="InboxParameter40" NAME="message" DESC="" TYPE="XML">&lt;soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/soa-web-service" xmlns:bns="http://birzeit.edu/soa-web-service"&gt;
+&lt;soapEnv:Body&gt;
+    &lt;bns:getStudentRequest soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
+  &lt;bns:id xsi:type="xsd:int"&gt;%id%&lt;/bns:id&gt;
+&lt;/bns:getStudentRequest&gt;
+&lt;/soapEnv:Body&gt;&lt;/soapEnv:Envelope&gt;</PARAM>
+            <PARAM OID="InboxParameter41" NAME="destination" DESC="" TYPE="URI">http://34.201.172.255:8080/ws</PARAM>
+            <PARAM OID="InboxParameter42" NAME="timeout" DESC="" TYPE="Integer Advanced" />
+            <PARAM OID="InboxParameter47" NAME="SOAPaction" TYPE="String" />
+          </INBOX>
+          <OUTBOX>
+            <PARAM OID="OutboxParameter44" NAME="error" DESC="" TYPE="String" />
+            <PARAM OID="OutboxParameter45" NAME="message" DESC="" TYPE="Text" />
+          </OUTBOX>
+        </METHOD>
+      </ACCESS>
+    </PROGRAM>
+  </PROGRAMS>
+</OCR>
+

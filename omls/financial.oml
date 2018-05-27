@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OCR VER="2.0" MAXID="262">
+  <PROCS>
+    <PROC OID="Process189" NAME="Test_addStudentFinancial_1" DESC="Automatically generated test process for addStudentFinancial_1" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" PUBLISHED="true" SUBPROC="false" FLOWCONTROL="false">
+      <INBOX>
+        <PARAM OID="InboxParameter194" NAME="id" DESC="" TYPE="xsd:int" />
+        <PARAM OID="InboxParameter195" NAME="amount" DESC="" TYPE="xsd:float" />
+        <PARAM OID="InboxParameter196" NAME="type" DESC="" TYPE="xsd:string" />
+      </INBOX>
+      <OUTBOX>
+        <PARAM OID="OutboxParameter197" NAME="financial" DESC="" TYPE="xsdns0:financial" />
+      </OUTBOX>
+      <TASKS>
+        <ACTIVITY OID="Activity198" NAME="addStudentFinancial_1" DESC="" ACT="" COND="TRUE" PRIORITY="0" DEP="4" SYNCH="0" FAILH="0" PROGRAMID="Program35" />
+      </TASKS>
+      <DATAFLOW>
+        <BIND OID="Binding206" SRCTYP="3" DESTTYP="0" SRCPID="InboxParameter194" DESTPID="InboxParameter37" DESTTID="Activity198" ACTION="0" />
+        <BIND OID="Binding209" SRCTYP="3" DESTTYP="0" SRCPID="InboxParameter195" DESTPID="InboxParameter38" DESTTID="Activity198" ACTION="0" />
+        <BIND OID="Binding212" SRCTYP="3" DESTTYP="0" SRCPID="InboxParameter196" DESTPID="InboxParameter39" DESTTID="Activity198" ACTION="0" />
+        <BIND OID="Binding215" SRCTYP="0" DESTTYP="3" SRCPID="OutboxParameter43" DESTPID="OutboxParameter197" SRCTID="Activity198" ACTION="0" />
+      </DATAFLOW>
+      <VIEWS>
+        <VIEW OID="View190" NAME="ControlFlow" DESC="" VTYPE="0">
+          <ARROWS />
+          <BOXES>
+            <RBOX OID="RefBox200" X="0.0" Y="50.0" DX="0.0" DY="0.0" REF="Activity198" REFTYPE="0">
+              <BOXES />
+            </RBOX>
+          </BOXES>
+          <GROUPS />
+        </VIEW>
+        <VIEW OID="View191" NAME="DataFlow" DESC="" VTYPE="1">
+          <ARROWS>
+            <ARROW OID="Arrow207" SOURCE="RefBox205" DESTINATION="RefBox201" REF="Binding206" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow210" SOURCE="RefBox208" DESTINATION="RefBox202" REF="Binding209" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow213" SOURCE="RefBox211" DESTINATION="RefBox203" REF="Binding212" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow216" SOURCE="RefBox204" DESTINATION="RefBox214" REF="Binding215" REFTYPE="1" ROUTE="2" />
+          </ARROWS>
+          <BOXES>
+            <RBOX OID="RefBox192" X="250.0" Y="0.0" DX="0.0" DY="0.0" REF="Process189" REFTYPE="5">
+              <BOXES>
+                <RBOX OID="RefBox205" X="250.0" Y="50.0" DX="0.0" DY="0.0" REF="InboxParameter194" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox208" X="300.0" Y="50.0" DX="0.0" DY="0.0" REF="InboxParameter195" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox211" X="350.0" Y="50.0" DX="0.0" DY="0.0" REF="InboxParameter196" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+            <RBOX OID="RefBox193" X="299.0" Y="413.0" DX="0.0" DY="0.0" REF="Process189" REFTYPE="6">
+              <BOXES>
+                <RBOX OID="RefBox214" X="337.0" Y="364.0" DX="0.0" DY="0.0" REF="OutboxParameter197" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+            <RBOX OID="RefBox199" X="290.0" Y="230.0" DX="0.0" DY="0.0" REF="Activity198" REFTYPE="0">
+              <BOXES>
+                <RBOX OID="RefBox201" X="260.0" Y="154.0" DX="0.0" DY="0.0" REF="InboxParameter37" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox202" X="310.0" Y="154.0" DX="0.0" DY="0.0" REF="InboxParameter38" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox203" X="360.0" Y="154.0" DX="0.0" DY="0.0" REF="InboxParameter39" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox204" X="323.0" Y="281.0" DX="0.0" DY="0.0" REF="OutboxParameter43" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+          </BOXES>
+          <GROUPS />
+        </VIEW>
+      </VIEWS>
+    </PROC>
+    <PROC OID="Process217" NAME="Test_getStudentFinancial_1" DESC="Automatically generated test process for getStudentFinancial_1" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" PUBLISHED="true" SUBPROC="false" FLOWCONTROL="false">
+      <INBOX>
+        <PARAM OID="InboxParameter222" NAME="id" DESC="" TYPE="xsd:int" />
+      </INBOX>
+      <OUTBOX>
+        <PARAM OID="OutboxParameter223" NAME="financial" DESC="" TYPE="xsdns0:financial" />
+      </OUTBOX>
+      <TASKS>
+        <ACTIVITY OID="Activity224" NAME="getStudentFinancial_1" DESC="" ACT="" COND="TRUE" PRIORITY="0" DEP="4" SYNCH="0" FAILH="0" PROGRAMID="Program48" />
+      </TASKS>
+      <DATAFLOW>
+        <BIND OID="Binding230" SRCTYP="3" DESTTYP="0" SRCPID="InboxParameter222" DESTPID="InboxParameter50" DESTTID="Activity224" ACTION="0" />
+        <BIND OID="Binding233" SRCTYP="0" DESTTYP="3" SRCPID="OutboxParameter54" DESTPID="OutboxParameter223" SRCTID="Activity224" ACTION="0" />
+      </DATAFLOW>
+      <VIEWS>
+        <VIEW OID="View218" NAME="ControlFlow" DESC="" VTYPE="0">
+          <ARROWS />
+          <BOXES>
+            <RBOX OID="RefBox226" X="0.0" Y="50.0" DX="0.0" DY="0.0" REF="Activity224" REFTYPE="0">
+              <BOXES />
+            </RBOX>
+          </BOXES>
+          <GROUPS />
+        </VIEW>
+        <VIEW OID="View219" NAME="DataFlow" DESC="" VTYPE="1">
+          <ARROWS>
+            <ARROW OID="Arrow231" SOURCE="RefBox229" DESTINATION="RefBox227" REF="Binding230" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow234" SOURCE="RefBox228" DESTINATION="RefBox232" REF="Binding233" REFTYPE="1" ROUTE="2" />
+          </ARROWS>
+          <BOXES>
+            <RBOX OID="RefBox220" X="250.0" Y="0.0" DX="0.0" DY="0.0" REF="Process217" REFTYPE="5">
+              <BOXES>
+                <RBOX OID="RefBox229" X="295.0" Y="52.0" DX="0.0" DY="0.0" REF="InboxParameter222" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+            <RBOX OID="RefBox221" X="305.0" Y="403.0" DX="0.0" DY="0.0" REF="Process217" REFTYPE="6">
+              <BOXES>
+                <RBOX OID="RefBox232" X="344.0" Y="330.0" DX="0.0" DY="0.0" REF="OutboxParameter223" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+            <RBOX OID="RefBox225" X="280.0" Y="188.0" DX="0.0" DY="0.0" REF="Activity224" REFTYPE="0">
+              <BOXES>
+                <RBOX OID="RefBox227" X="311.0" Y="125.0" DX="0.0" DY="0.0" REF="InboxParameter50" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox228" X="319.0" Y="254.0" DX="0.0" DY="0.0" REF="OutboxParameter54" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+          </BOXES>
+          <GROUPS />
+        </VIEW>
+      </VIEWS>
+    </PROC>
+    <PROC OID="Process235" NAME="Test_Unpack_financial" DESC="Automatically generated test process for Unpack_financial" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" PUBLISHED="true" SUBPROC="false" FLOWCONTROL="false">
+      <INBOX>
+        <PARAM OID="InboxParameter240" NAME="financial" DESC="" TYPE="String" />
+      </INBOX>
+      <OUTBOX>
+        <PARAM OID="OutboxParameter241" NAME="id" DESC="" TYPE="xsd:int" />
+        <PARAM OID="OutboxParameter242" NAME="studentId" DESC="" TYPE="xsd:int" />
+        <PARAM OID="OutboxParameter243" NAME="balance" DESC="" TYPE="xsd:float" />
+      </OUTBOX>
+      <TASKS>
+        <ACTIVITY OID="Activity244" NAME="Unpack_financial" DESC="" ACT="" COND="TRUE" PRIORITY="0" DEP="4" SYNCH="0" FAILH="0" PROGRAMID="Program10" />
+      </TASKS>
+      <DATAFLOW>
+        <BIND OID="Binding252" SRCTYP="3" DESTTYP="0" SRCPID="InboxParameter240" DESTPID="InboxParameter11" DESTTID="Activity244" ACTION="0" />
+        <BIND OID="Binding255" SRCTYP="0" DESTTYP="3" SRCPID="OutboxParameter12" DESTPID="OutboxParameter241" SRCTID="Activity244" ACTION="0" />
+        <BIND OID="Binding258" SRCTYP="0" DESTTYP="3" SRCPID="OutboxParameter13" DESTPID="OutboxParameter242" SRCTID="Activity244" ACTION="0" />
+        <BIND OID="Binding261" SRCTYP="0" DESTTYP="3" SRCPID="OutboxParameter14" DESTPID="OutboxParameter243" SRCTID="Activity244" ACTION="0" />
+      </DATAFLOW>
+      <VIEWS>
+        <VIEW OID="View236" NAME="ControlFlow" DESC="" VTYPE="0">
+          <ARROWS />
+          <BOXES>
+            <RBOX OID="RefBox246" X="0.0" Y="50.0" DX="0.0" DY="0.0" REF="Activity244" REFTYPE="0">
+              <BOXES />
+            </RBOX>
+          </BOXES>
+          <GROUPS />
+        </VIEW>
+        <VIEW OID="View237" NAME="DataFlow" DESC="" VTYPE="1">
+          <ARROWS>
+            <ARROW OID="Arrow253" SOURCE="RefBox251" DESTINATION="RefBox247" REF="Binding252" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow256" SOURCE="RefBox248" DESTINATION="RefBox254" REF="Binding255" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow259" SOURCE="RefBox249" DESTINATION="RefBox257" REF="Binding258" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow262" SOURCE="RefBox250" DESTINATION="RefBox260" REF="Binding261" REFTYPE="1" ROUTE="2" />
+          </ARROWS>
+          <BOXES>
+            <RBOX OID="RefBox238" X="201.0" Y="40.0" DX="0.0" DY="0.0" REF="Process235" REFTYPE="5">
+              <BOXES>
+                <RBOX OID="RefBox251" X="253.0" Y="101.0" DX="0.0" DY="0.0" REF="InboxParameter240" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+            <RBOX OID="RefBox239" X="403.0" Y="434.0" DX="0.0" DY="0.0" REF="Process235" REFTYPE="6">
+              <BOXES>
+                <RBOX OID="RefBox254" X="346.0" Y="383.0" DX="0.0" DY="0.0" REF="OutboxParameter241" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox257" X="396.0" Y="383.0" DX="0.0" DY="0.0" REF="OutboxParameter242" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox260" X="446.0" Y="383.0" DX="0.0" DY="0.0" REF="OutboxParameter243" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+            <RBOX OID="RefBox245" X="318.0" Y="218.0" DX="0.0" DY="0.0" REF="Activity244" REFTYPE="0">
+              <BOXES>
+                <RBOX OID="RefBox247" X="293.0" Y="168.0" DX="0.0" DY="0.0" REF="InboxParameter11" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox248" X="243.0" Y="278.0" DX="0.0" DY="0.0" REF="OutboxParameter12" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox249" X="293.0" Y="278.0" DX="0.0" DY="0.0" REF="OutboxParameter13" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox250" X="343.0" Y="278.0" DX="0.0" DY="0.0" REF="OutboxParameter14" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+          </BOXES>
+          <GROUPS />
+        </VIEW>
+      </VIEWS>
+    </PROC>
+  </PROCS>
+  <PROGRAMS>
+    <PROGRAM OID="Program10" NAME="Unpack_financial" DESC="" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" SIZE="0" RESTART="0">
+      <INBOX>
+        <PARAM OID="InboxParameter11" NAME="financial" DESC="" TYPE="String" />
+      </INBOX>
+      <OUTBOX>
+        <PARAM OID="OutboxParameter12" NAME="id" DESC="" TYPE="xsd:int" />
+        <PARAM OID="OutboxParameter13" NAME="studentId" DESC="" TYPE="xsd:int" />
+        <PARAM OID="OutboxParameter14" NAME="balance" DESC="" TYPE="xsd:float" />
+      </OUTBOX>
+      <ACCESS>
+        <METHOD OID="AccessMethod15" NAME="ECHO" DESC="" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" COMP="system.CT_ECHO">
+          <INBOX>
+            <PARAM OID="InboxParameter16" NAME="Input" DESC="" TYPE="XML">%financial%</PARAM>
+          </INBOX>
+          <OUTBOX>
+            <PARAM OID="OutboxParameter17" NAME="Output" DESC="" TYPE="Text" />
+            <PARAM OID="OutboxParameter18" NAME="status" DESC="" TYPE="String" />
+            <PARAM OID="OutboxParameter19" NAME="errormsg" DESC="" TYPE="String" />
+          </OUTBOX>
+        </METHOD>
+      </ACCESS>
+    </PROGRAM>
+    <PROGRAM OID="Program1" NAME="SOAP_addStudentFinancial" DESC="" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" SIZE="0" RESTART="0">
+      <INBOX>
+        <PARAM OID="InboxParameter3" NAME="studentId" DESC="" TYPE="xsd:int" />
+        <PARAM OID="InboxParameter4" NAME="amount" DESC="" TYPE="String" />
+        <PARAM OID="InboxParameter5" NAME="type" DESC="" TYPE="xsd:string" />
+      </INBOX>
+      <OUTBOX>
+        <PARAM OID="OutboxParameter9" NAME="financial" DESC="" TYPE="xsdns0:financial" />
+      </OUTBOX>
+      <ACCESS>
+        <METHOD OID="AccessMethod2" NAME="SOAP_addStudentFinancial_INVOKE" DESC="" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" COMP="system.router.CT_INVOKE">
+          <INBOX>
+            <PARAM OID="InboxParameter6" NAME="message" DESC="" TYPE="XML">&lt;soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/financial-web-service" xmlns:bns="http://birzeit.edu/financial-web-service"&gt;
+&lt;soapEnv:Body&gt;
+    &lt;bns:addStudentFinancialRequest soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
+  &lt;bns:studentId xsi:type="xsd:int"&gt;%studentId%&lt;/bns:studentId&gt;
+  &lt;bns:amount xsi:type="xsd:float"&gt;%amount%&lt;/bns:amount&gt;
+  &lt;bns:type xsi:type="xsd:string"&gt;%type%&lt;/bns:type&gt;
+&lt;/bns:addStudentFinancialRequest&gt;
+&lt;/soapEnv:Body&gt;&lt;/soapEnv:Envelope&gt;</PARAM>
+            <PARAM OID="InboxParameter7" NAME="destination" DESC="" TYPE="URI">http://34.201.172.255:8090/ws</PARAM>
+            <PARAM OID="InboxParameter8" NAME="timeout" DESC="" TYPE="Integer Advanced" />
+            <PARAM OID="InboxParameter23" NAME="SOAPaction" TYPE="String" />
+          </INBOX>
+          <OUTBOX>
+            <PARAM OID="OutboxParameter20" NAME="error" DESC="" TYPE="String" />
+            <PARAM OID="OutboxParameter21" NAME="message" DESC="" TYPE="Text" />
+          </OUTBOX>
+        </METHOD>
+      </ACCESS>
+    </PROGRAM>
+    <PROGRAM OID="Program24" NAME="SOAP_getStudentFinancial" DESC="" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" SIZE="0" RESTART="0">
+      <INBOX>
+        <PARAM OID="InboxParameter26" NAME="id" DESC="" TYPE="xsd:int" />
+      </INBOX>
+      <OUTBOX>
+        <PARAM OID="OutboxParameter30" NAME="financial" DESC="" TYPE="xsdns0:financial" />
+      </OUTBOX>
+      <ACCESS>
+        <METHOD OID="AccessMethod25" NAME="SOAP_getStudentFinancial_INVOKE" DESC="" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" COMP="system.router.CT_INVOKE">
+          <INBOX>
+            <PARAM OID="InboxParameter27" NAME="message" DESC="" TYPE="XML">&lt;soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/financial-web-service" xmlns:bns="http://birzeit.edu/financial-web-service"&gt;
+&lt;soapEnv:Body&gt;
+    &lt;bns:getStudentFinancial soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
+  &lt;bns:id xsi:type="xsd:int"&gt;%id%&lt;/bns:id&gt;
+&lt;/bns:getStudentFinancial&gt;
+&lt;/soapEnv:Body&gt;&lt;/soapEnv:Envelope&gt;</PARAM>
+            <PARAM OID="InboxParameter28" NAME="destination" DESC="" TYPE="URI">http://34.201.172.255:8090/ws</PARAM>
+            <PARAM OID="InboxParameter29" NAME="timeout" DESC="" TYPE="Integer Advanced" />
+            <PARAM OID="InboxParameter34" NAME="SOAPaction" TYPE="String" />
+          </INBOX>
+          <OUTBOX>
+            <PARAM OID="OutboxParameter31" NAME="error" DESC="" TYPE="String" />
+            <PARAM OID="OutboxParameter32" NAME="message" DESC="" TYPE="Text" />
+          </OUTBOX>
+        </METHOD>
+      </ACCESS>
+    </PROGRAM>
+    <PROGRAM OID="Program35" NAME="addStudentFinancial_1" DESC="" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" SIZE="0" RESTART="0">
+      <INBOX>
+        <PARAM OID="InboxParameter37" NAME="studentId" DESC="" TYPE="xsd:int" />
+        <PARAM OID="InboxParameter38" NAME="amount" DESC="" TYPE="xsd:float" />
+        <PARAM OID="InboxParameter39" NAME="type" DESC="" TYPE="xsd:string" />
+      </INBOX>
+      <OUTBOX>
+        <PARAM OID="OutboxParameter43" NAME="financial" DESC="" TYPE="xsdns0:financial" />
+      </OUTBOX>
+      <ACCESS>
+        <METHOD OID="AccessMethod36" NAME="addStudentFinancial_1_INVOKE" DESC="" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" COMP="system.router.CT_INVOKE">
+          <INBOX>
+            <PARAM OID="InboxParameter40" NAME="message" DESC="" TYPE="XML">&lt;soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/financial-web-service" xmlns:bns="http://birzeit.edu/financial-web-service"&gt;
+&lt;soapEnv:Body&gt;
+    &lt;bns:addStudentFinancialRequest soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
+   &lt;bns:studentId xsi:type="xsd:int" &gt;%studentId%&lt;/bns:studentId&gt;
+   &lt;bns:amount xsi:type="xsd:float" &gt;%amount%&lt;/bns:amount&gt;
+   &lt;bns:type xsi:type="xsd:string" &gt;%type%&lt;/bns:type&gt;
+&lt;/bns:addStudentFinancialRequest&gt;
+&lt;/soapEnv:Body&gt;&lt;/soapEnv:Envelope&gt;</PARAM>
+            <PARAM OID="InboxParameter41" NAME="destination" DESC="" TYPE="URI">http://34.201.172.255:8090/ws</PARAM>
+            <PARAM OID="InboxParameter42" NAME="timeout" DESC="" TYPE="Integer Advanced" />
+            <PARAM OID="InboxParameter47" NAME="SOAPaction" TYPE="String" />
+          </INBOX>
+          <OUTBOX>
+            <PARAM OID="OutboxParameter44" NAME="error" DESC="" TYPE="String" />
+            <PARAM OID="OutboxParameter45" NAME="message" DESC="" TYPE="Text" />
+          </OUTBOX>
+        </METHOD>
+      </ACCESS>
+    </PROGRAM>
+    <PROGRAM OID="Program48" NAME="getStudentFinancial_1" DESC="" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" SIZE="0" RESTART="0">
+      <INBOX>
+        <PARAM OID="InboxParameter50" NAME="id" DESC="" TYPE="xsd:int" />
+      </INBOX>
+      <OUTBOX>
+        <PARAM OID="OutboxParameter54" NAME="financial" DESC="" TYPE="xsdns0:financial" />
+      </OUTBOX>
+      <ACCESS>
+        <METHOD OID="AccessMethod49" NAME="getStudentFinancial_1_INVOKE" DESC="" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" COMP="system.router.CT_INVOKE">
+          <INBOX>
+            <PARAM OID="InboxParameter51" NAME="message" DESC="" TYPE="XML">&lt;soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://birzeit.edu/financial-web-service" xmlns:bns="http://birzeit.edu/financial-web-service"&gt;
+&lt;soapEnv:Body&gt;
+    &lt;bns:getStudentFinancialRequest soapEnv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
+   &lt;bns:id xsi:type="xsd:int" &gt;%id%&lt;/bns:id&gt;
+&lt;/bns:getStudentFinancialRequest&gt;
+&lt;/soapEnv:Body&gt;&lt;/soapEnv:Envelope&gt;</PARAM>
+            <PARAM OID="InboxParameter52" NAME="destination" DESC="" TYPE="URI">http://34.201.172.255:8090/ws</PARAM>
+            <PARAM OID="InboxParameter53" NAME="timeout" DESC="" TYPE="Integer Advanced" />
+            <PARAM OID="InboxParameter58" NAME="SOAPaction" TYPE="String" />
+          </INBOX>
+          <OUTBOX>
+            <PARAM OID="OutboxParameter55" NAME="error" DESC="" TYPE="String" />
+            <PARAM OID="OutboxParameter56" NAME="message" DESC="" TYPE="Text" />
+          </OUTBOX>
+        </METHOD>
+      </ACCESS>
+    </PROGRAM>
+  </PROGRAMS>
+</OCR>
+

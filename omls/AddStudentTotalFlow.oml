@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OCR VER="2.0" MAXID="112">
+  <PROCS>
+    <PROC OID="Process3" NAME="AddStudentTotalFlow" DESC="" AUTHOR="" VERSION="1.0" VERSIONSTATUS="Stable" CACHELIFETIME="0" ABSTRACT="false" PUBLISHED="true" SUBPROC="false" FLOWCONTROL="false">
+      <INBOX>
+        <PARAM OID="InboxParameter51" NAME="gender" DESC="" TYPE="String" />
+        <PARAM OID="InboxParameter55" NAME="name" DESC="" TYPE="String" />
+        <PARAM OID="InboxParameter56" NAME="dateOfBrth" DESC="" TYPE="String" />
+      </INBOX>
+      <OUTBOX>
+        <PARAM OID="OutboxParameter71" NAME="financial" DESC="" TYPE="xsdns0:financial" />
+        <PARAM OID="OutboxParameter109" NAME="Registration" DESC="" TYPE="Registration" />
+      </OUTBOX>
+      <CONSTS>
+        <PARAM OID="Constant65" NAME="type" DESC="" TYPE="String">"CREDIT"</PARAM>
+        <PARAM OID="Constant78" NAME="amount" DESC="" TYPE="String">"700"</PARAM>
+      </CONSTS>
+      <TASKS>
+        <ACTIVITY OID="Activity15" NAME="SOAP_addStudent" DESC="" ACT="" COND="TRUE" PRIORITY="0" DEP="4" SYNCH="0" FAILH="0" PROGRAMID="ws.ws.students.Program24" />
+        <ACTIVITY OID="Activity36" NAME="SOAP_addStudentFinancial" DESC="" ACT="Finished(Unpack_student)" COND="TRUE" PRIORITY="0" DEP="4" SYNCH="0" FAILH="0" PROGRAMID="ws.ws.financial.Program1" />
+        <ACTIVITY OID="Activity85" NAME="Unpack_student" DESC="" ACT="Finished(SOAP_addStudent)" COND="TRUE" PRIORITY="0" DEP="4" SYNCH="0" FAILH="0" PROGRAMID="ws.ws.students.Program7" />
+        <ACTIVITY OID="Activity101" NAME="createRegistration" DESC="" ACT="Finished(Unpack_student)" COND="TRUE" PRIORITY="0" DEP="4" SYNCH="0" FAILH="0" PROGRAMID="ws.ws.registration.Program65" />
+      </TASKS>
+      <DATAFLOW>
+        <BIND OID="Binding53" SRCTYP="3" DESTTYP="0" SRCPID="InboxParameter51" DESTPID="ws.ws.students.InboxParameter27" DESTTID="Activity15" ACTION="0" />
+        <BIND OID="Binding59" SRCTYP="3" DESTTYP="0" SRCPID="InboxParameter55" DESTPID="ws.ws.students.InboxParameter26" DESTTID="Activity15" ACTION="0" />
+        <BIND OID="Binding61" SRCTYP="3" DESTTYP="0" SRCPID="InboxParameter56" DESTPID="ws.ws.students.InboxParameter28" DESTTID="Activity15" ACTION="0" />
+        <BIND OID="Binding69" SRCTYP="2" DESTTYP="0" SRCPID="Constant65" DESTPID="ws.ws.financial.InboxParameter5" DESTTID="Activity36" ACTION="0" />
+        <BIND OID="Binding73" SRCTYP="0" DESTTYP="3" SRCPID="ws.ws.financial.OutboxParameter9" DESTPID="OutboxParameter71" SRCTID="Activity36" ACTION="0" />
+        <BIND OID="Binding80" SRCTYP="2" DESTTYP="0" SRCPID="Constant78" DESTPID="ws.ws.financial.InboxParameter4" DESTTID="Activity36" ACTION="0" />
+        <BIND OID="Binding95" SRCTYP="0" DESTTYP="0" SRCPID="ws.ws.students.OutboxParameter32" DESTPID="ws.ws.students.InboxParameter8" SRCTID="Activity15" DESTTID="Activity85" ACTION="0" />
+        <BIND OID="Binding98" SRCTYP="0" DESTTYP="0" SRCPID="ws.ws.students.OutboxParameter9" DESTPID="ws.ws.financial.InboxParameter3" SRCTID="Activity85" DESTTID="Activity36" ACTION="0" />
+        <BIND OID="Binding106" SRCTYP="0" DESTTYP="0" SRCPID="ws.ws.students.OutboxParameter9" DESTPID="ws.ws.registration.InboxParameter74" SRCTID="Activity85" DESTTID="Activity101" ACTION="0" />
+        <BIND OID="Binding111" SRCTYP="0" DESTTYP="3" SRCPID="ws.ws.registration.OutboxParameter75" DESTPID="OutboxParameter109" SRCTID="Activity101" ACTION="0" />
+      </DATAFLOW>
+      <VIEWS>
+        <VIEW OID="View4" NAME="ControlFlow" DESC="" VTYPE="0">
+          <ARROWS>
+            <ARROW OID="Arrow97" SOURCE="RefBox17" DESTINATION="RefBox87" REFTYPE="4" ROUTE="2" />
+            <ARROW OID="Arrow100" SOURCE="RefBox87" DESTINATION="RefBox38" REFTYPE="4" ROUTE="2" />
+            <ARROW OID="Arrow108" SOURCE="RefBox87" DESTINATION="RefBox103" REFTYPE="4" ROUTE="2" />
+          </ARROWS>
+          <BOXES>
+            <RBOX OID="RefBox17" X="238.0" Y="105.0" DX="0.0" DY="0.0" REF="Activity15" REFTYPE="0">
+              <BOXES />
+            </RBOX>
+            <RBOX OID="RefBox38" X="305.0" Y="297.0" DX="0.0" DY="0.0" REF="Activity36" REFTYPE="0">
+              <BOXES />
+            </RBOX>
+            <RBOX OID="RefBox87" X="213.0" Y="200.0" DX="0.0" DY="0.0" REF="Activity85" REFTYPE="0">
+              <BOXES />
+            </RBOX>
+            <RBOX OID="RefBox103" X="54.0" Y="291.0" DX="0.0" DY="0.0" REF="Activity101" REFTYPE="0">
+              <BOXES />
+            </RBOX>
+          </BOXES>
+          <GROUPS />
+        </VIEW>
+        <VIEW OID="View5" NAME="DataFlow" DESC="" VTYPE="1">
+          <ARROWS>
+            <ARROW OID="Arrow54" SOURCE="RefBox52" DESTINATION="RefBox19" REF="Binding53" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow60" SOURCE="RefBox57" DESTINATION="RefBox18" REF="Binding59" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow62" SOURCE="RefBox58" DESTINATION="RefBox20" REF="Binding61" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow70" SOURCE="RefBox66" DESTINATION="RefBox41" REF="Binding69" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow74" SOURCE="RefBox42" DESTINATION="RefBox72" REF="Binding73" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow81" SOURCE="RefBox79" DESTINATION="RefBox40" REF="Binding80" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow96" SOURCE="RefBox21" DESTINATION="RefBox88" REF="Binding95" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow99" SOURCE="RefBox89" DESTINATION="RefBox39" REF="Binding98" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow107" SOURCE="RefBox89" DESTINATION="RefBox104" REF="Binding106" REFTYPE="1" ROUTE="2" />
+            <ARROW OID="Arrow112" SOURCE="RefBox105" DESTINATION="RefBox110" REF="Binding111" REFTYPE="1" ROUTE="2" />
+          </ARROWS>
+          <BOXES>
+            <RBOX OID="RefBox6" X="436.0" Y="13.0" DX="0.0" DY="0.0" REF="Process3" REFTYPE="5">
+              <BOXES>
+                <RBOX OID="RefBox52" X="455.0" Y="54.0" DX="0.0" DY="0.0" REF="InboxParameter51" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox57" X="382.0" Y="52.0" DX="0.0" DY="0.0" REF="InboxParameter55" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox58" X="552.0" Y="55.0" DX="0.0" DY="0.0" REF="InboxParameter56" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+            <RBOX OID="RefBox7" X="374.0" Y="532.0" DX="0.0" DY="0.0" REF="Process3" REFTYPE="6">
+              <BOXES>
+                <RBOX OID="RefBox72" X="450.0" Y="476.0" DX="0.0" DY="0.0" REF="OutboxParameter71" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox110" X="324.0" Y="492.0" DX="0.0" DY="0.0" REF="OutboxParameter109" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+            <RBOX OID="RefBox16" X="432.0" Y="139.0" DX="0.0" DY="0.0" REF="Activity15" REFTYPE="0">
+              <BOXES>
+                <RBOX OID="RefBox18" X="371.0" Y="96.0" DX="0.0" DY="0.0" REF="ws.ws.students.InboxParameter26" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox19" X="453.0" Y="95.0" DX="0.0" DY="0.0" REF="ws.ws.students.InboxParameter27" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox20" X="569.0" Y="94.0" DX="0.0" DY="0.0" REF="ws.ws.students.InboxParameter28" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox21" X="433.0" Y="178.0" DX="0.0" DY="0.0" REF="ws.ws.students.OutboxParameter32" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+            <RBOX OID="RefBox37" X="416.0" Y="395.0" DX="0.0" DY="0.0" REF="Activity36" REFTYPE="0">
+              <BOXES>
+                <RBOX OID="RefBox39" X="365.0" Y="362.0" DX="0.0" DY="0.0" REF="ws.ws.financial.InboxParameter3" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox40" X="479.0" Y="332.0" DX="0.0" DY="0.0" REF="ws.ws.financial.InboxParameter4" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox41" X="577.0" Y="339.0" DX="0.0" DY="0.0" REF="ws.ws.financial.InboxParameter5" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox42" X="454.0" Y="435.0" DX="0.0" DY="0.0" REF="ws.ws.financial.OutboxParameter9" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+            <RBOX OID="RefBox66" X="580.0" Y="274.0" DX="0.0" DY="0.0" REF="Constant65" REFTYPE="7">
+              <BOXES />
+            </RBOX>
+            <RBOX OID="RefBox79" X="471.0" Y="265.0" DX="0.0" DY="0.0" REF="Constant78" REFTYPE="7">
+              <BOXES />
+            </RBOX>
+            <RBOX OID="RefBox86" X="270.0" Y="187.0" DX="0.0" DY="0.0" REF="Activity85" REFTYPE="0">
+              <BOXES>
+                <RBOX OID="RefBox88" X="519.0" Y="203.0" DX="0.0" DY="0.0" REF="ws.ws.students.InboxParameter8" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox89" X="191.0" Y="305.0" DX="0.0" DY="0.0" REF="ws.ws.students.OutboxParameter9" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox90" X="228.0" Y="292.0" DX="0.0" DY="0.0" REF="ws.ws.students.OutboxParameter10" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox91" X="268.0" Y="296.0" DX="0.0" DY="0.0" REF="ws.ws.students.OutboxParameter11" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox92" X="301.0" Y="261.0" DX="0.0" DY="0.0" REF="ws.ws.students.OutboxParameter12" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox93" X="351.0" Y="261.0" DX="0.0" DY="0.0" REF="ws.ws.students.OutboxParameter13" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox94" X="401.0" Y="261.0" DX="0.0" DY="0.0" REF="ws.ws.students.OutboxParameter14" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+            <RBOX OID="RefBox102" X="225.0" Y="415.0" DX="0.0" DY="0.0" REF="Activity101" REFTYPE="0">
+              <BOXES>
+                <RBOX OID="RefBox104" X="194.0" Y="355.0" DX="0.0" DY="0.0" REF="ws.ws.registration.InboxParameter74" REFTYPE="3">
+                  <BOXES />
+                </RBOX>
+                <RBOX OID="RefBox105" X="279.0" Y="450.0" DX="0.0" DY="0.0" REF="ws.ws.registration.OutboxParameter75" REFTYPE="4">
+                  <BOXES />
+                </RBOX>
+              </BOXES>
+            </RBOX>
+          </BOXES>
+          <GROUPS />
+        </VIEW>
+      </VIEWS>
+    </PROC>
+  </PROCS>
+</OCR>
+
