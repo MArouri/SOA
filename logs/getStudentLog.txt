@@ -1,3 +1,6 @@
+/*
+ * This log represents SOAP's getStudent service function log test obtained from the server
+ **/
 {ws.ws.students}Test_SOAP_getStudent[1.0].0.0:1:id,5
 {ws.ws.students}Test_SOAP_getStudent[1.0].0.0:2:student,<ns1:id xmlns:ns1="http://birzeit.edu/soa-web-service">5</ns1:id><ns1:name xmlns:ns1="http://birzeit.edu/soa-web-service">Ali</ns1:name><ns1:gender xmlns:ns1="http://birzeit.edu/soa-web-service">MALE</ns1:gender><ns1:dateOfBirth xmlns:ns1="http://birzeit.edu/soa-web-service">12-12-1990</ns1:dateOfBirth><ns1:balance xmlns:ns1="http://birzeit.edu/soa-web-service">0.0</ns1:balance><ns1:credit xmlns:ns1="http://birzeit.edu/soa-web-service">0</ns1:credit>
 {ws.ws.students}Test_SOAP_getStudent[1.0].0.0:0:CALLER,null

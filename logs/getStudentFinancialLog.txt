@@ -1,3 +1,6 @@
+/*
+ * This log represents the getStudentFinancial service function log obtained from the server
+ **/
 {ws.ws.financial}Test_getStudentFinancial_1[1.0].0.0:1:id,10
 {ws.ws.financial}Test_getStudentFinancial_1[1.0].0.0:2:financial,<ns1:id xmlns:ns1="http://birzeit.edu/financial-web-service">3</ns1:id><ns1:studentId xmlns:ns1="http://birzeit.edu/financial-web-service">10</ns1:studentId><ns1:balance xmlns:ns1="http://birzeit.edu/financial-web-service">200.0</ns1:balance>
 {ws.ws.financial}Test_getStudentFinancial_1[1.0].0.0:0:CALLER,null

@@ -1,3 +1,6 @@
+/*
+ * This log represents the addStudentTotalFlow service function log obtained from the server
+ **/
 {ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.0:1:dateOfBrth,12-12-2000
 {ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.0:1:gender,MALE
 {ws.ws.AddStudentTotalFlow}AddStudentTotalFlow[1.0].0.0:1:name,test

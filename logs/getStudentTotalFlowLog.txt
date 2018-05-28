@@ -1,3 +1,6 @@
+/*
+ * This log represents GetStudentTotalFlow service function log obtained from the server
+ **/
 {ws.ws.GetStudentTotalFlow}GetStudentTotalFlow[1.0].0.0:1:id,24
 {ws.ws.GetStudentTotalFlow}GetStudentTotalFlow[1.0].0.0:2:financial,<ns1:id xmlns:ns1="http://birzeit.edu/financial-web-service">20</ns1:id><ns1:studentId xmlns:ns1="http://birzeit.edu/financial-web-service">24</ns1:studentId><ns1:balance xmlns:ns1="http://birzeit.edu/financial-web-service">700.0</ns1:balance>
 {ws.ws.GetStudentTotalFlow}GetStudentTotalFlow[1.0].0.0:2:Registration,null

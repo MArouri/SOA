@@ -1,3 +1,6 @@
+/*
+ * This log represents the addStudent service function log obtained from the server
+ **/
 {ws.ws.students}Test_SOAP_addStudent[1.0].0.0:1:dateOfBirth,01-01-2000
 {ws.ws.students}Test_SOAP_addStudent[1.0].0.0:1:gender,MALE
 {ws.ws.students}Test_SOAP_addStudent[1.0].0.0:1:name,Fathi 3ata

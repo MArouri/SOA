@@ -1,3 +1,6 @@
+/*
+ * This log represents the createRegistration service function test log obtained from the server
+ **/
 {ws.ws.registration}Test_createRegistration[1.0].0.0:1:id,2
 {ws.ws.registration}Test_createRegistration[1.0].0.0:2:Registration,null
 {ws.ws.registration}Test_createRegistration[1.0].0.0:0:CALLER,null

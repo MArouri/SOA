@@ -1,3 +1,6 @@
+/*
+ * This log represents the addStudentFinancial service function log obtained from the server
+ **/
 {ws.ws.financial}Test_addStudentFinancial_1[1.0].0.0:1:amount,200
 {ws.ws.financial}Test_addStudentFinancial_1[1.0].0.0:1:studentId,11
 {ws.ws.financial}Test_addStudentFinancial_1[1.0].0.0:1:type,DEBIT
